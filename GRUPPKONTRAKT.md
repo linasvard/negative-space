@@ -9,6 +9,10 @@
 > Det är bra att få ur sig de negativa förväntningarna och att diskutera öppet kring tidigare erfarenheter. Ju öppnare ni är i er kommunikation nu, desto bättre grupparbete kommer ni att få. På en arbetsplats kanske man känner varandra redan och det finns andra "krav". Av någon anledning beter sig många annorlunda i en skolmiljö när det gäller grupparbeten :thinking:
 
 👤 **Angelie:**
+1.	Att gruppen känner sig stressade över att hinna klart i tid. Detta upplever jag leder till ett effektivt arbete av *lägre* kvalitet.
+2.	Att beslut tas hej vilt bara för att få komma vidare (jag är ibland själv skyldig till detta). Att kanske rösta och gemensamt komma fram till ett beslut är för mig önskvärt.
+3.	Otrygg stämning. Jag vill jobba för en så trygg och öppen arbetsmiljö som möjligt.
+
 
 👤 **Maria:**
 
