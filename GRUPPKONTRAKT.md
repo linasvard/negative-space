@@ -31,14 +31,6 @@
 - Kontaktuppgifter delas i teamschatten.
 - Om svar uteblir i över 24 h kan man kontakta via telefon.
 
-### Scrum master:
-Tre dagar var.
-Turordning:
-1. Alex
-2. Angelie
-3. Kimi
-4. Maria
-
 ### Kommunikation
 - Vi är tillgängliga att nå veckodagar 9-16. Ej helger och röda dagar.  
 - Förhinder kan meddelas antingen i något möte eller i teamschatten.
@@ -134,11 +126,21 @@ Kimi:
 Alex:
 - Jag älskar att designa och skapa, så jag är nog bäst på det. Jag är också ganska bra på att organisera och planera, så jag kan hjälpa till med det också. Har hyfsat bra koll på de digitala verktyg som vi använder under kursens gång, så jag kan också bidra med det. Sämre på att ibland bli distraherad och tappa fokus, särskilt när jag jobbar på en uppgift som är rolig. Jag vill gärna träna mer på att hålla fokus och inte låta mig distraheras av andra saker när jag jobbar.
   - Tränar gärna extra på CSS|HTML och git, eftersom det är områden där jag känner att vill fördjupa mig i.
+ 
+### Scrum master:
+> Utse gärna en scrum master som ansvarar för att _delegera_ uppgifter. Scrum mastern ska inte _göra allt_, utan se till att alla har att göra och att ingen sitter fast.
+
+Scrum master för loggbok över daily.
+
+Tre dagar var.
+Turordning:
+1. Alex
+2. Angelie
+3. Kimi
+4. Maria
 
 ### Övrigt
 Om ni vill ta upp någonting utöver det fördefinierade. Skriv gärna en egen rubrik.
-
-
 
 ### Kodstandard
 - Conventional commits
