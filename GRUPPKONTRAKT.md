@@ -1,7 +1,21 @@
 # Gruppkontrakt
 
-## Arbetsmetod
-Vi arbetar enligt Agila metoder.
+### Tidigare grupparbeteserfarenheter
+- Vilka är respektive gruppmedlems top 3 sämsta erfarenheter med grupparbeten? Vilka "negativa förväntningar" kommer ni in i detta med?
+
+> Exempel: Personer gör inte det dom har lovat inom utsatt tid, och säger att "dom jobbar på det", men det blir aldrig klart.
+
+> [!TIP]
+> Det är bra att få ur sig de negativa förväntningarna och att diskutera öppet kring tidigare erfarenheter. Ju öppnare ni är i er kommunikation nu, desto bättre grupparbete kommer ni att få. På en arbetsplats kanske man känner varandra redan och det finns andra "krav". Av någon anledning beter sig många annorlunda i en skolmiljö när det gäller grupparbeten :thinking:
+
+👤 **Angelie:**
+
+👤 **Maria:**
+
+👤 **Kimi:**
+
+👤 **Alex:**
+
 
 ### Mötestider
 - Daily standup: kl 09:00 varje vardag
