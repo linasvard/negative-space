@@ -34,6 +34,8 @@
 ### Scrum master:
 > Utse gärna en scrum master som ansvarar för att _delegera_ uppgifter. Scrum mastern ska inte _göra allt_, utan se till att alla har att göra och att ingen sitter fast.
 
+Scrum master för loggbok över daily.
+
 Tre dagar var.
 Turordning:
 1. Alex
