@@ -31,18 +31,6 @@ Turordning:
 3. Kimi
 4. Maria
 
-Scrummaster för loggbok.
-
-**Deligerare:**
-Tre dagar var.
-Turordning:
-1. Maria
-2. Kimi
-3. Angelie
-4. Alex
-
-Deligerar arbetsuppgifter och ser till att alla har att göra och vet vad dom ska göra.
-
 ### Möteskanaler & format
 - Teams
 - Kamera på
