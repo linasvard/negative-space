@@ -39,13 +39,6 @@ Turordning:
 3. Kimi
 4. Maria
 
-### Möteskanaler & format
-- Teams
-- Kamera på
-- Vi går tillsammans igenom vad som ska göras på mötena. Igen förberedelse behövs.
-- Brådskande ärenden kan kommuniceras via sms eller telefonsamtal. Kontaktuppgifter delas i teamschatten. Om svar uteblir i över 24 h kan man prova kontakta via telefon.
-
-
 ### Kommunikation
 - Vi är tillgängliga att nå veckodagar 9-16. Ej helger och röda dagar.  
 - Förhinder kan meddelas antingen i något möte eller i teamschatten.
