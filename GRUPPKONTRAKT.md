@@ -18,19 +18,12 @@
 
 
 ### Mötestider
-- Daily standup: kl 09:00 varje vardag
-- Sprint planning (och planning poker): Måndagar direkt efter daily (förutom v 18 kör vi tisdag efter lektionen):
-- Backlog refining: Onsdagar efter daily 
-- Retro: Fredagar efter daily
+- **Daily standup (cirka 15 min):** Vardagar kl 09:00 
+- **Sprint planning, samt Planning poker (cirka 1-2 h):** Måndagar direkt efter daily 
+- **Backlog refining (cirka 1 h):** Onsdagar direkt efter daily 
+- **Retrospektiv (cirka 1 h):** Fredagar direkt efter daily
 
-Ni ska planera in:
-
-- Daily standup _varje vardag_. Det får gärna vara samma tid så att det är lätt att komma ihåg, men det är upp till gruppen att bestämma. Ni **ska** fylla i en loggbok dagligen med er daily.
-- Tid för backlog refining varje vecka (cirka 1 h).
-- Tid för sprint planning varje vecka (cirka 1-2 h).
-- Tid för retrospektiv varje vecka (cirka 1 h).
-
-## Scrum master:
+### Scrum master:
 Tre dagar var.
 Turordning:
 1. Alex
