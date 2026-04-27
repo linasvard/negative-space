@@ -97,6 +97,17 @@ Vilken roll brukar varje gruppmedlem ta på sig i ett grupparbete? Vilken roll h
   - Planeraren/Genomföraren: Organiserad, praktisk, pålitlig.
 
 **Maria:**
+- Om mig:
+  - Ibland tar det lite tid för mig att komma igång, jag är en person som tänker mycket och ibland behöver lite tid för att komma med åsikter. Jag är kreativ och kommer på nya ideer. Kan vara väldigt rakfram hur jag kommunicerar ibland. Vill gärna bli klar snabbt.
+ 
+- Vid stress:
+  - Alltid lugn utåt
+ 
+- Roll i grupparbetet:
+  - **Innovatören/Idésprutan:** Kreativ, fantasifull, ser nya lösningar.
+  - **Lagspelaren/Samordnaren:** Samarbetsvillig, diplomatisk, stöttande.
+    
+ 
 **Kimi:**
 **Angelie:**
 
@@ -118,6 +129,11 @@ Vilken roll brukar varje gruppmedlem ta på sig i ett grupparbete? Vilken roll h
 
 Angelie:
 Maria:
+- Jag är bra på att komma med nya ideer och lösningar. Kreativ, gillar att skapa och design. 
+- Seg på att börja, har ibland lite dålig koll pga kan vara lite överväldigad.
+- Figma, Javascript och css
+
+  
 Kimi:
 Alex:
 - Jag älskar att designa och skapa, så jag är nog bäst på det. Jag är också ganska bra på att organisera och planera, så jag kan hjälpa till med det också. Har hyfsat bra koll på de digitala verktyg som vi använder under kursens gång, så jag kan också bidra med det. Sämre på att ibland bli distraherad och tappa fokus, särskilt när jag jobbar på en uppgift som är rolig. Jag vill gärna träna mer på att hålla fokus och inte låta mig distraheras av andra saker när jag jobbar.
@@ -144,7 +160,7 @@ Om ni vill ta upp någonting utöver det fördefinierade. Skriv gärna en egen r
 Slutligen ska ni signera dokumentet med era underskrifter.
 
 - [Alex Minh Truong](https://github.com/alexminhtruong)
-- [Namn](https://github.com/)
+- [Maria Birath ](https://github.com/mariabhai)
 - [Namn](https://github.com/)
 - [Namn](https://github.com/)
 
