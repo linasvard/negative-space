@@ -100,7 +100,15 @@ Vilken roll brukar varje gruppmedlem ta på sig i ett grupparbete? Vilken roll h
     
  
 **Kimi:**
+
 **Angelie:**
+Jag mår som bäst då jag känner att jag kan vara nogrann och lägga omsorg på det jag gör. Det kan lätt bli rörigt för mig och då vill jag gärna skapa ordning. Jag försöker hitta en bra balans mellan kvalitet och effektivitet. Jag kan ibland vara "klumpig" i mitt sätt att kommunicera.
+
+- Vid stress:
+  -	Jag vill bara bli klar. Blir målmedveten men läggs mindre engegemang på ett gott reslutat.
+ 
+- Roll i grupparbetet:	
+
 
 ### Uppgiftsfördelning
 - Uppgifter fördelas under sprintplanning.
