@@ -23,6 +23,14 @@
 - **Backlog refining (cirka 1 h):** Onsdagar direkt efter daily 
 - **Retrospektiv (cirka 1 h):** Fredagar direkt efter daily
 
+### Möteskanaler & format
+- Teams
+- Kamera på
+- På mötena går vi tillsammans igenom vad som ska göras. Ingen förberedelse inför möten behövs.
+- Brådskande ärenden kan kommuniceras via sms eller telefonsamtal.
+- Kontaktuppgifter delas i teamschatten.
+- Om svar uteblir i över 24 h kan man kontakta via telefon.
+
 ### Scrum master:
 Tre dagar var.
 Turordning:
