@@ -15,7 +15,7 @@
 👤 **Kimi:**
 
 👤 **Alex:**
-
+- Jag har haft olika erfarenheter av grupparbeten, både positiva och negativa. En av de bästa erfarenheterna jag har haft var när jag arbetade med en grupp som var väldigt engagerad och kommunikativ. Vi delade upp arbetet på ett rättvist sätt och höll varandra ansvariga för våra uppgifter. Det gjorde att vi kunde leverera ett riktigt bra resultat och det var också en rolig process. Men jag har också haft mindre bra erfarenheter, där kommunikationen inte fungerade så bra och det ledde till en inre frustration vilket ledde till en känsla av att man inte kände sig lika delaktig i grupparbetet. De negativa förväntningarna jag har är att det kan bli svårt att få alla att bidra lika mycket, och att det kan uppstå konflikter eller missförstånd som kan påverka gruppens dynamik negativt.
 
 ### Mötestider
 - **Daily standup (cirka 15 min):** Vardagar kl 09:00 
