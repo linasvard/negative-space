@@ -32,6 +32,8 @@
 - Om svar uteblir i över 24 h kan man kontakta via telefon.
 
 ### Scrum master:
+> Utse gärna en scrum master som ansvarar för att _delegera_ uppgifter. Scrum mastern ska inte _göra allt_, utan se till att alla har att göra och att ingen sitter fast.
+
 Tre dagar var.
 Turordning:
 1. Alex
