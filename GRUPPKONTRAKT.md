@@ -84,6 +84,18 @@ Vilken roll brukar varje gruppmedlem ta på sig i ett grupparbete? Vilken roll h
 **Här kan vi skriva en liten beskrivning om oss själva. Vi kan också ta med vilken/vilka av ovanstånde roller vi förknippar oss med om vi vill :):**
 
 **Alex:**
+- Om mig:
+  - Jag är en person som gillar att undersöka och lära mig nya saker, vilket gör att jag ofta tar på mig rollen som informationssökare i grupparbeten. Jag är också ganska organiserad och pålitlig, så jag kan ibland ta på mig rollen som planerare/genomförare. Jag trivs bäst när jag får arbeta självständigt, men jag är också öppen för att samarbeta och hjälpa andra när det behövs. Jag har en positiv inställning och försöker alltid skapa en god stämning i gruppen, så jag kan också ses som en peppare.
+
+- Vid stress:
+  - Tunnelseende vid stress när jag gör en arbetsuppgift som är roligt.
+  - Blir uppgiftsorienterad vid stress och vill gärna bli klar med den.
+
+- Roll i grupparbetet:
+  - Informationssökaren: Nyfiken, faktabaserad, samlar data.
+  - Granskaren/Utvärdering: Kritisk, strategisk, objektiv, logisk.
+  - Planeraren/Genomföraren: Organiserad, praktisk, pålitlig.
+
 **Maria:**
 **Kimi:**
 **Angelie:**
@@ -108,7 +120,8 @@ Angelie:
 Maria:
 Kimi:
 Alex:
-
+- Jag älskar att designa och skapa, så jag är nog bäst på det. Jag är också ganska bra på att organisera och planera, så jag kan hjälpa till med det också. Har hyfsat bra koll på de digitala verktyg som vi använder under kursens gång, så jag kan också bidra med det. Sämre på att ibland bli distraherad och tappa fokus, särskilt när jag jobbar på en uppgift som är rolig. Jag vill gärna träna mer på att hålla fokus och inte låta mig distraheras av andra saker när jag jobbar.
+  - Tränar gärna extra på CSS|HTML och git, eftersom det är områden där jag känner att vill fördjupa mig i.
 
 ### Övrigt
 Om ni vill ta upp någonting utöver det fördefinierade. Skriv gärna en egen rubrik.
@@ -130,6 +143,10 @@ Om ni vill ta upp någonting utöver det fördefinierade. Skriv gärna en egen r
 ### Underskrifter
 Slutligen ska ni signera dokumentet med era underskrifter.
 
+- [Alex Minh Truong](https://github.com/alexminhtruong)
+- [Namn](https://github.com/)
+- [Namn](https://github.com/)
+- [Namn](https://github.com/)
 
 
 
