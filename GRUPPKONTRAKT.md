@@ -43,8 +43,7 @@
 - Vi skriver i chatten om kodkonflikter uppstår och bestämmer sedan hur vi hanterar det.
 - Scrum dokumenterar dailyn.
 
-*(Vi återkommer till denna)*
-### Feedback & återkoppling 
+### Feedback & återkoppling *(Vi återkommer till denna)*
 - Hur gör vi code reviews?
 - Hur ger vi feedback på designarbete?
 - Inom vilken tidsfrist ska återkoppling ges?
