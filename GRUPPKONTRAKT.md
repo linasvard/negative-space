@@ -10,9 +10,8 @@
 
 👤 **Angelie:**
 1.	Att gruppen känner sig stressade över att hinna klart i tid. Detta upplever jag leder till ett effektivt arbete av *lägre* kvalitet.
-2.	Att beslut tas hej vilt bara för att få komma vidare (jag är ibland själv skyldig till detta). Att kanske rösta och gemensamt komma fram till ett beslut är för mig önskvärt.
+2.	Att beslut tas hej vilt bara för att få komma vidare (jag är ibland själv skyldig till detta). 
 3.	Otrygg stämning. Jag vill jobba för en så trygg och öppen arbetsmiljö som möjligt.
-
 
 👤 **Maria:**
    - Att alla inte bidrar mycket, att det skapas frustrationer när man inte förstår hur andra tänker, att personer blir uppgivna inför deadline, tröttnar och får bristande engagemang. 
@@ -103,11 +102,13 @@ Vilken roll brukar varje gruppmedlem ta på sig i ett grupparbete? Vilken roll h
 - Vid stress:
   -	Jag vill bara bli klar. Blir målmedveten och lägger mindre omsorg på ett gott reslutat.
  
-- Roll i grupparbetet:
+- Dessa roller strävar jag efter:
   - **Lagspelaren/Samordnaren:** Samarbetsvillig, diplomatisk, stöttande.
   - **Pepparen:** Positiv, empatisk, skapar god stämning.
   - **Slutföraren/Kvalitetssäkraren:** Noggrann, detaljfokuserad, avslutar i tid.
   - **Planeraren/Genomföraren:** Organiserad, praktisk, pålitlig.
+
+Men jag håller fortfarande på att lära känna mig själv och grupparbeten hjälper mig att upptäcka saker hos mig själv. Så rollerna jag strävar efter kanske inte nödvändigtvis blir dom roller jag kommer att ha i detta grupparbete.
 
 ### Uppgiftsfördelning
 - Uppgifter fördelas under sprintplanning.
@@ -126,6 +127,9 @@ Vilken roll brukar varje gruppmedlem ta på sig i ett grupparbete? Vilken roll h
 - Finns det något du rent tekniskt vill träna extra på? HTMl, CSS, git? Projektledning?
 
 Angelie:
+-	Jag har ett öga för design och är mycket visuellt lagd. Jag upplever också att jag bra på att driva gruppen framåt och tar intiativ om det behövs. Att driva framåt kan vara till en fördel om vi skulle börja sitta fast, men det är enligt mig bra om det finns personer i teamet som kan se om det bara är gas utan eftertanke och kan bromsa ner.
+-	Jag är sämre på att organisera och skapa struktur. Även om jag älskar att ha ordning och reda och behöver det för att fungera som bäst så är det något jag tampas med. 
+
 Maria:
 - Jag är bra på att komma med nya ideer och lösningar. Kreativ, gillar att skapa och design. 
 - Seg på att börja, har ibland lite dålig koll pga kan vara lite överväldigad.
