@@ -15,6 +15,7 @@
 
 
 👤 **Maria:**
+   - Att alla inte bidrar mycket, att det skapas frustrationer när man inte förstår hur andra tänker, att personer blir uppgivna inför deadline, tröttnar och får bristande engagemang. 
 
 👤 **Kimi:**
 
