@@ -1,6 +1,6 @@
 # Daily standup 28 April 2026
 
-## Check-up
+## Daily Check-up - Scrum Alex
 - Vad gjorde jag igår?
 
   - Under vårt första möte igår gick vi igenom kursplanen och påbörjade att skriva ett gruppkontrakt. Vi bestämde att vi skulle försöka tänka fram lite idéer för vår design som mottagargruppen ska få som ett projekt.
