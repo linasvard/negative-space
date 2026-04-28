@@ -17,6 +17,7 @@
    - Att alla inte bidrar mycket, att det skapas frustrationer när man inte förstår hur andra tänker, att personer blir uppgivna inför deadline, tröttnar och får bristande engagemang. 
 
 👤 **Kimi:**
+- Att kommunikation inte varit så bra och dessutom att man inte gjort de man ska i tid. Att man dessutom väntat för länge med att få något gjort.
 
 👤 **Alex:**
 - Jag har haft olika erfarenheter av grupparbeten, både positiva och negativa. En av de bästa erfarenheterna jag har haft var när jag arbetade med en grupp som var väldigt engagerad och kommunikativ. Vi delade upp arbetet på ett rättvist sätt och höll varandra ansvariga för våra uppgifter. Det gjorde att vi kunde leverera ett riktigt bra resultat och det var också en rolig process. Men jag har också haft mindre bra erfarenheter, där kommunikationen inte fungerade så bra och det ledde till en inre frustration vilket ledde till en känsla av att man inte kände sig lika delaktig i grupparbetet. De negativa förväntningarna jag har är att det kan bli svårt att få alla att bidra lika mycket, och att det kan uppstå konflikter eller missförstånd som kan påverka gruppens dynamik negativt.
@@ -94,6 +95,14 @@ Vilken roll brukar varje gruppmedlem ta på sig i ett grupparbete? Vilken roll h
     
  
 **Kimi:**
+- Om mig:
+  - Jag är mer av en åskådare än en som säger saker så jag är väldigt tyst av mig, jag arbetar tryggast för mig själv då jag är väldigt tillbakadragen. Jag blir gärna klar så snabbt som möjligt på bästa sätt, men är även flexibel och har inte alltid en större åsikt om saker än andra.
+
+- Vid stress:
+  - Lugn på utsidan men fryser till lite internt. 
+
+- Roll i grupparbetet:
+  - **Lagspelaren/Samordnaren:** Samarbetsvillig, diplomatisk, stöttande.
 
 **Angelie:**
 - Om mig:
@@ -138,6 +147,11 @@ Maria:
 
   
 Kimi:
+- Jag har en god förståelse för de tekniska och lyckas hitta många lösningar till problem inom där.  
+- Jag är inte lika bra på att alltid komma med ideer utan lyssnar mer på andras och därefter kan även jag ibland få några ideer själv.
+- Figma, JS, CSS och HTML vill jag finslipa och kunna rätt bra.
+
+
 Alex:
 - Jag älskar att designa och skapa, så jag är nog bäst på det. Jag är också ganska bra på att organisera och planera, så jag kan hjälpa till med det också. Har hyfsat bra koll på de digitala verktyg som vi använder under kursens gång, så jag kan också bidra med det. Sämre på att ibland bli distraherad och tappa fokus, särskilt när jag jobbar på en uppgift som är rolig. Jag vill gärna träna mer på att hålla fokus och inte låta mig distraheras av andra saker när jag jobbar.
   - Tränar gärna extra på CSS|HTML och git, eftersom det är områden där jag känner att vill fördjupa mig i.
@@ -174,7 +188,7 @@ Slutligen ska ni signera dokumentet med era underskrifter.
 
 - [Alex Minh Truong](https://github.com/alexminhtruong)
 - [Maria Birath ](https://github.com/mariabhai)
-- [Namn](https://github.com/)
+- [Kimi Leminaho](https://github.com/Prxjec-t)
 - [Namn](https://github.com/)
 
 
