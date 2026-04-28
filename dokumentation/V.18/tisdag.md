@@ -14,3 +14,8 @@
 - Har jag några problem/hinder/behöver hjälp?
   - Vi har inte inga problem/hinder just nu.
 
+Närvaro:
+- Angelie
+- Alex
+- Kimi
+- Maria fick förhinder och kunde inte delta idag.
