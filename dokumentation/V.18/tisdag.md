@@ -18,4 +18,4 @@ Närvaro:
 - Angelie
 - Alex
 - Kimi
-- Maria fick förhinder och kunde inte delta idag.
+- Maria
