@@ -128,7 +128,8 @@ Men jag håller fortfarande på att lära känna mig själv och grupparbeten hj�
 
 Angelie:
 -	Jag har ett öga för design och är mycket visuellt lagd. Jag upplever också att jag bra på att driva gruppen framåt och tar intiativ om det behövs. Att driva framåt kan vara till en fördel om vi skulle börja sitta fast, men det är enligt mig bra om det finns personer i teamet som kan se om det bara är gas utan eftertanke och kan bromsa ner.
--	Jag är sämre på att organisera och skapa struktur. Även om jag älskar att ha ordning och reda och behöver det för att fungera som bäst så är det något jag tampas med. 
+-	Jag är sämre på att organisera och skapa struktur. Även om jag älskar att ha ordning och reda och behöver det för att fungera som bäst så är det något jag tampas med.
+-	Jag vill träna extra på TypeScript och Figma. Samt mina tekniska skills överlag, typ hantera en dator. 
 
 Maria:
 - Jag är bra på att komma med nya ideer och lösningar. Kreativ, gillar att skapa och design. 
