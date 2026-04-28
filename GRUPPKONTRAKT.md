@@ -43,12 +43,6 @@
 - Vi skriver i chatten om kodkonflikter uppstår och bestämmer sedan hur vi hanterar det.
 - Scrum dokumenterar dailyn.
 
-### Feedback & återkoppling *(Vi återkommer till denna)*
-- Hur gör vi code reviews?
-- Hur ger vi feedback på designarbete?
-- Inom vilken tidsfrist ska återkoppling ges?
-- Hur känns det när man inte får någon återkoppling på det man har gjort?
-
 ### Personlighetstyp
 > Det kan kännas obekvämt att diskutera följande, men det är en grund för ett bra samarbete att dels ha lite självinsikt, men också förståelse för hur ens gruppmedlemmar fungerar i olika situationer.
 
