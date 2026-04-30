@@ -15,9 +15,13 @@
 
 ## Förbeställ ruta
 - Dom gula knapparna leder ingen vart, men det går att klicka på krysset och stänga ner rutan.
-- Dom gula knapparna har hover-effekt (se färg i Graphic and guidlines).
 
 ## Cookies-ruta
 - Cookies-rutan finns direkt man kommer till webbplatsen, men ska gå att trycka bort.
+
+## Hoover-effekt
+- Se prototyp samt Graphic and guidlines.
+
+
 
 
