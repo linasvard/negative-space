@@ -21,7 +21,7 @@
 
 ## Hoover-effekt
 - Se prototyp samt Graphic and guidlines.
-  - [Prototype](https://www.figma.com/proto/1n9mLh7s8l2XoVqj3a5u9/Design-Project?node-id=0-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=0%3A1)
+  - [Prototype](https://www.figma.com/proto/kNFnuK1cUeGFNAHNQAOXo4/Negative-Space?node-id=129-339&p=f&viewport=-713%2C256%2C0.21&t=CnqRTcWs0WFngely-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=129%3A339&page-id=0%3A1)
 
 
 
