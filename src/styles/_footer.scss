@@ -8,7 +8,7 @@ footer {
 
   > div {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
 
     > div:last-child {
       justify-self: end;
@@ -18,9 +18,5 @@ footer {
   a {
     display: block;
     margin-bottom: 0.5rem;
-  }
-
-  @media (min-width: 768px) {
-    padding: 2.5rem 4rem 3rem;
   }
 }
