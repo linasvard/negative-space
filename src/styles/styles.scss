@@ -6,3 +6,8 @@
 @use 'cookies';
 @use 'newsletter';
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
