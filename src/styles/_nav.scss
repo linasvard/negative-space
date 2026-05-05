@@ -6,9 +6,20 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.mobileTabletDropdownElements {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+}
+
 .desktopNavbar {
   display: none;
 }
+
+
 
 /* ==========================
 💻 DESKTOP NAVIGATION
@@ -30,7 +41,8 @@
       list-style: none;
     }
 
-    .tabletMobileNavbar {
+    .tabletMobileNavbar, 
+    .mobileTabletDropdown {
       display: none;
     }
 }
