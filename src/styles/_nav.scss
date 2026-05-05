@@ -5,10 +5,23 @@
   display: none;
 }
 
+header {
+  position: relative;
+}
+
  .tabletMobileNavbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.mobileTabletDropdown {
+    position: absolute;
+    top: 100%; 
+    left: 0; 
+    background-color: beige;
+    padding: 10px;
+    z-index: 1000;
 }
 
 .mobileTabletDropdownElements {

@@ -8,10 +8,12 @@ const dropdown = document.querySelector(".mobileTabletDropdown");
 toggleBtn.addEventListener("click", () => {
   dropdown.classList.remove("hidden");
   toggleBtn.classList.add("hidden");
+  closeBtn.classList.remove("hidden");
 });
 
 closeBtn.addEventListener("click", () => {
   dropdown.classList.add("hidden");
+  closeBtn.classList.add("hidden");
   toggleBtn.classList.remove("hidden");
 });
 
