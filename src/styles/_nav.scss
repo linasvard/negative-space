@@ -1,0 +1,36 @@
+/* ==========================
+📱 MOBILE & TABLET NAVIGATION
+ ========================== */
+.tabletMobileNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.desktopNavbar {
+  display: none;
+}
+
+/* ==========================
+💻 DESKTOP NAVIGATION
+========================== */
+
+@media (min-width: 1024px) {
+
+    .desktopNavbar {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+       
+    }
+
+    .navbarElements {
+      display: flex;
+      gap: 20px;
+      align-content: last baseline;
+      list-style: none;
+    }
+
+    .tabletMobileNavbar {
+      display: none;
+    }
+}
