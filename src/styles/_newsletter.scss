@@ -21,22 +21,21 @@
   object-fit: cover;
 }
 
-.popup-bubble {
+/*.popup-bubble {
   display: none;
-}
+} */
 
 @media tablet and (min-width: 765px) and (max-width: 1023px) {
-    .newsletter-wrapper {
+.newsletter-wrapper {
   top: 1130px;
   left: 22px;
 }
 
-    .popup-trigger {
+ .popup-trigger {
   width: 62px;       
   height: 62px;
   background: none;
-    border: none;
-   
+  border: none;
 
 }
 
