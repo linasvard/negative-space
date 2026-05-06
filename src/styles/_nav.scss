@@ -55,14 +55,27 @@ header {
       display: flex;
       justify-content: flex-end;
       align-items: center;
-       
+      height: 140px;  
+      border-radius: 30px;
+      background-color: color-mix(in srgb, var(--color-pink) 10%, transparent);
+      position: fixed;
+      width: calc(100vw - 10px);
+
+      a {
+        text-transform: uppercase;
+        font-weight: var(--font-weight-black);
+        font-size: 32px;
+        color: var(--color-white);
+        margin: 30px;
+      }
+
     }
 
     .navbarElements {
       display: flex;
-      gap: 20px;
-      align-content: last baseline;
+      gap: 40px;
       list-style: none;
+
     }
 
     .tabletMobileNavbar, 
