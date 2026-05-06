@@ -102,12 +102,17 @@ header {
         margin: 30px;
       }
 
+      a:hover {
+        color: var(--color-pink);
+      }
+
     }
 
     .navbarElements {
       display: flex;
       gap: 40px;
       list-style: none;
+
 
     }
 
