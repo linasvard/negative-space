@@ -8,7 +8,7 @@
 }
 
 header {
-  position: relative;
+  position: fixed; /* KOM IHÅG: bytte från relative till fixed */
 }
 
  .tabletMobileNavbar {
@@ -17,25 +17,58 @@ header {
   align-items: center;
   position: relative;
   z-index: 1001; 
+
+  .toggleMenuBtn,
+  .closeMobileMenu {
+    background: none;
+    border: none;
+  }
+
+  .toggleMenuBtn svg {
+    
+    fill: var(--color-yellow);
+  }
+
+  .closeMobileMenu {
+    padding: 30px 30px;
+  }
+
+  .closeMobileMenu svg {
+    width: 25px;
+    height: 25px;
+    fill: var(--color-text-grey);
+  }
+
 }
 
 .mobileTabletDropdown {
     position: absolute;
     top: 0; 
     left: 0;
-    width: 75%;
-    max-width: 450px; 
-    background-color: beige;
+    width: calc(100vw - 30vw);
+    height: 480px; 
+    max-width: 450px;
+    background-color: color-mix(in srgb, var(--color-dark-blue) 90%, transparent);
     padding-top: 60px;
     z-index: 1000;
+    border-radius: 30px;
+    padding-top: 90px;
 }
 
 .mobileTabletDropdownElements {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     padding: 0;
+
+    a {
+        text-transform: uppercase;
+        font-weight: var(--font-weight-black);
+        font-size: 32px;
+        color: var(--color-text-grey);
+        padding: 10px 34px;
+    }
 }
 
 
