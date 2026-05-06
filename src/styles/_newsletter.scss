@@ -1,6 +1,6 @@
 .newsletter-wrapper {
   position: fixed;
-  top: 704px;
+  top: 10px;
   left: 12px;
   z-index: 1000;
 }
@@ -21,13 +21,11 @@
   object-fit: cover;
 }
 
-/*.popup-bubble {
-  display: none;
-} */
 
-@media tablet and (min-width: 765px) and (max-width: 1023px) {
+
+@media screen and (min-width: 765px) and (max-width: 1023px) {
 .newsletter-wrapper {
-  top: 1130px;
+  top: 200px;
   left: 22px;
 }
 
@@ -50,7 +48,7 @@
 @media screen and (min-width: 1024px) {
 
 .newsletter-wrapper {
-top: 2150px;
+top: 300px;
 left: 35px;
     }
 
