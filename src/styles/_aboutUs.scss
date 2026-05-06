@@ -1,0 +1,64 @@
+/* ===============================
+   ABOUT US SECTION - MOBILE FIRST
+================================== */
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+}
+
+/* TEXT*/
+.about-us-text {
+  text-align: left;
+  max-width: 600px;
+  padding-top: 1rem;
+}
+
+/* IMAGES */
+
+.about-us-images {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  padding-inline: 1rem;
+  gap: 1rem;
+}
+
+.about-us-images img {
+  width: 100%;
+  max-width: 315px;
+  height: auto;
+  display: block;
+}
+
+/* ============================
+   TABLET (765px–1023px)
+   ============================ */
+@media (min-width: 765px) {
+  .about-us-images {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
+
+/* ============================
+   DESKTOP (1024px+)
+   Text vänster, bilder höger
+   ============================ */
+@media (min-width: 1024px) {
+  .about-us {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .about-us-text {
+    flex: 1;
+    max-width: 50%;
+  }
+
+  .about-us-images {
+    flex: 1;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
