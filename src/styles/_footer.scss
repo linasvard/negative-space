@@ -1,0 +1,22 @@
+footer {
+  width: 100%;
+  padding: 2rem;
+
+  hr {
+    margin-bottom: 1rem;
+  }
+
+  > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    > div:last-child {
+      justify-self: end;
+    }
+  }
+
+  a {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}
