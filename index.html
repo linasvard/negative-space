@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=close"
+    />
   </head>
   <body>
     <!-- ============================= -->
@@ -37,25 +41,23 @@
     <header>
       <nav class="tabletMobileNavbar">
         <button class="toggleMenuBtn tablet mobile" id="toggleHamburgerMenu">
-          <svg xmlns="http://www.w3.org/2000/svg" 
-          height="40px" 
-          viewBox="120 -720 720 480" 
-          width="40px" 
-          fill="#000">
-          <path d="M160-240q-17 0-28.5-11.5T120-280q0-17 11.5-28.5T160-320h640q17 0 28.5 11.5T840-280q0 17-11.5 28.5T800-240H160Zm0-200q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520h640q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440H160Zm0-200q-17 0-28.5-11.5T120-680q0-17 11.5-28.5T160-720h640q17 0 28.5 11.5T840-680q0 17-11.5 28.5T800-640H160Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="120 -720 720 480" width="40px" fill="#000">
+            <path
+              d="M160-240q-17 0-28.5-11.5T120-280q0-17 11.5-28.5T160-320h640q17 0 28.5 11.5T840-280q0 17-11.5 28.5T800-240H160Zm0-200q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520h640q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440H160Zm0-200q-17 0-28.5-11.5T120-680q0-17 11.5-28.5T160-720h640q17 0 28.5 11.5T840-680q0 17-11.5 28.5T800-640H160Z"
+            />
+          </svg>
         </button>
         <button class="closeMobileMenu hidden" id="closeMobileMenu">
-          <svg xmlns="http://www.w3.org/2000/svg" 
-          height="35px" 
-          viewBox="120 -720 720 480" 
-          width="35px" 
-          fill="#000">
-          <path d="M480-424 284-228q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536-480l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-424Z"/>/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="120 -720 720 480" width="35px" fill="#000">
+            <path
+              d="M480-424 284-228q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536-480l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-424Z"
+            />
+            />
+          </svg>
         </button>
       </nav>
-      
+
       <div class="mobileTabletDropdown" aria-hidden="true">
-        
         <ul class="mobileTabletDropdownElements">
           <li><a href="#">Pre-order</a></li>
           <li><a href="#">About us</a></li>
@@ -89,13 +91,20 @@
       <button class="pre-order-btn">Pre-Order</button>
     </div>
 
-    <!-- STORY -->
-    <div class="blob-img">
-      <img src="/assets/contents/about-the-game-box.png" width="943" height="588" alt="" aria-hidden="true" />
-      <div class="story-wrapper">
-        <h2 class="story-heading">Story</h2>
-        <p class="story-text">The martians planets resources is decreasing in a frightening pace so four brave astronaut trainee's applied to go on a mission to find a better planet with water so that humanity can survive. The mission is called...</p>
-        <p><em>Expedition Positive Space.</em></p>
+        <div class="story-section">
+          <div class="blob-img">
+            <img src="/assets/contents/about-the-game-box.png" width="943" height="588" alt="" aria-hidden="true" />
+          </div>
+          <div class="story-wrapper">
+            <h2 class="story-heading">Story</h2>
+            <p class="story-text">
+              The martians planets resources is decreasing in a frightening pace so four brave astronaut trainee's
+              applied to go on a mission to find a better planet with water so that humanity can survive. The mission is
+              called...
+            </p>
+            <p><em>Expedition Positive Space.</em></p>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -108,7 +117,9 @@
           <img src="public/assets/contents/newsletter.png" alt="newsletter-icon" />
         </button>
         <div class="popup-bubble" id="newsletter-bubble">
-          <button class="close-btn" id="close-btn">&times;</button>
+          <button class="close-btn" aria-label="close popup">
+            <span class="material-symbols-outlined">close</span>
+          </button>
           <h2>Get notified</h2>
           <form>
             <label for="email">Stay in the loop with all our latest updates.</label>
@@ -154,19 +165,17 @@
     <!--             FOOTER             -->
     <!-- ============================== -->
     <footer>
-      
-        <hr />
-        <div class="footer-wrapper">
-          <div>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Cookies</a>
-          </div>
-          <div>
-            <a href="#">Contact</a>
-            <a href="#">Find Us</a>
-          </div>
+      <hr />
+      <div class="footer-wrapper">
+        <div>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookies</a>
         </div>
-     
+        <div>
+          <a href="#">Contact</a>
+          <a href="#">Find Us</a>
+        </div>
+      </div>
     </footer>
 
     <!-- Script -->
