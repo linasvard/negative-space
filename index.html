@@ -108,9 +108,19 @@
 
       <!-- Newsletter -->
 
-      <div>
-        <img src="" alt="" />
-        <form></form>
+      <div class="newsletter-wrapper">
+        <button class="popup-trigger" id="trigger-btn">
+          <img src="public/assets/contents/newsletter.png" alt="newsletter-icon" />
+        </button>
+        <div class="popup-bubble" id="newsletter-bubble">
+          <button class="close-btn" id="close-btn">&times;</button>
+          <h2>Get notified</h2>
+          <form>
+            <label for="email">Stay in the loop with all our latest updates.</label>
+            <input type="email" id="email" placeholder="Email address" required />
+            <button class="submit-btn" type="submit">Sign up</button>
+          </form>
+        </div>
       </div>
 
       <!-- ABOUT US -->
