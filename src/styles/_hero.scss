@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.story-heading {
+  color: #46C4DD;
+}
+
 .hero-section {
 position: relative;
 }
@@ -44,4 +48,8 @@ position: relative;
     top: 158%;
     left: 48%;
     width: 40%;
+}
+
+.story-text, em {
+  color: #021C51;
 }
