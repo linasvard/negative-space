@@ -1,49 +1,97 @@
 .hero-heading {
   text-align: center;
+  color: #d9e1ea;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.pre-order-btn {
+  color: #021c51;
+  background-color: #87d8bc;
+  margin-top: 2rem;
 }
 
 .hero-section {
-position: relative;
-display: none; // KOM IHÅG!!!!!!!!!
+  position: relative;
+  height: auto;
+}
+
+.bg-img {
+  position: relative;
 }
 
 .bg-img img {
-       position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    object-position: center center;
-  
+  width: 100%;
+  height: auto;
 }
-
 .hero-top {
   display: flex;
   flex-direction: column;
   align-items: center;
-   position: relative;
-}
-
-.story-section {
-  position: relative;
-  height: 100vh;
+  position: absolute;
+  z-index: 1;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .blob-img {
   position: absolute;
-    top: 145%;
-    left: 35%;
-    width: 60%;
+  top: 49%;
+  left: 30%;
+  width: 60%;
 }
 
 .blob-img img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .story-wrapper {
-    position: absolute;
-    top: 158%;
-    left: 48%;
-    width: 40%;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  width: 60%;
+  z-index: 1;
 }
+
+.story-heading {
+  color: #46c4dd;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 0.3rem;
+}
+
+.story-text,
+em {
+  color: #021c51;
+  font-size: clamp(0.5rem, 1.5vw, 1.2rem);
+}
+
+/* ============================
+   MEDIA QUERIES H1
+============================ */
+
+@media (min-width: 765px) {
+  .hero-heading {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 1170px) {
+  .hero-heading {
+    font-size: 5rem;
+  }
+}
+
+/*@media (min-width: 1024px) {
+  .story-text, em {
+  font-size: 1.6rem;
+}
+  }
+
+  @media (min-width: 765px) {
+  .story-text, em {
+  font-size: 1.2rem;
+}
+  }*/
