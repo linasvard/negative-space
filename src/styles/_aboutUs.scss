@@ -7,13 +7,25 @@
 .about-us {
   display: flex;
   flex-direction: column;
+  padding: 3rem;
 }
 
 /* TEXT*/
 .about-us-text {
   text-align: left;
-  max-width: 600px;
-  padding-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+h2.about-us-h2 {
+  color: var(--color-text-grey);
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+p.about-us-p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
 }
 
 /* IMAGES */
@@ -22,8 +34,8 @@
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
-  padding-inline: 1rem;
   gap: 1rem;
+  margin-top: 1.5rem;
 }
 
 .about-us-images img {
@@ -31,6 +43,7 @@
   max-width: 315px;
   height: auto;
   display: block;
+  margin-top: 1rem;
 }
 
 /* ============================
@@ -41,26 +54,48 @@
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
   }
+
+  h2.about-us-h2 {
+    font-size: 3.2rem;
+    margin-bottom: 3rem;
+  }
+  p.about-us-p {
+    font-size: 2.7rem;
+    margin-bottom: 1.8rem;
+  }
 }
 
 /* ============================
    DESKTOP (1024px+)
-   Text vänster, bilder höger
    ============================ */
 @media (min-width: 1024px) {
   .about-us {
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .about-us-text {
     flex: 1;
-    max-width: 50%;
   }
 
   .about-us-images {
     flex: 1;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
+  }
+  .about-us-images img {
+    min-width: 315px;
+    width: 100%;
+    height: auto;
+    padding-left: 3rem;
+  }
+
+  h2.about-us-h2 {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+  }
+  p.about-us-p {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
   }
 }
