@@ -8,7 +8,7 @@
 }
 
 header {
-  position: relative;
+  position: fixed; /* KOM IHÅG: bytte från relative till fixed */
 }
 
  .tabletMobileNavbar {
@@ -17,25 +17,71 @@ header {
   align-items: center;
   position: relative;
   z-index: 1001; 
+
+  .toggleMenuBtn,
+  .closeMobileMenu {
+    background: none;
+    border: none;
+  }
+
+  .toggleMenuBtn svg {
+    
+    fill: var(--color-yellow);
+  }
+
+  .closeMobileMenu {
+    padding: 30px 30px;
+  }
+
+  .closeMobileMenu svg {
+    width: 30px;
+    height: 30px;
+    fill: var(--color-text-grey);
+  }
+
 }
 
 .mobileTabletDropdown {
+    transform: translateY(-110%);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: transform 0.2s ease, opacity 0.2s ease, visibility 0.2s ease;
+
     position: absolute;
     top: 0; 
     left: 0;
-    width: 75%;
-    max-width: 450px; 
-    background-color: beige;
+    width: calc(100vw - 30vw);
+    height: 480px; 
+    max-width: 450px;
+    background-color: color-mix(in srgb, var(--color-dark-blue) 90%, transparent);
     padding-top: 60px;
     z-index: 1000;
+    border-radius: 30px;
+    padding-top: 90px;
+}
+
+.mobileTabletDropdown.open {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto; 
 }
 
 .mobileTabletDropdownElements {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     padding: 0;
+
+    a {
+        text-transform: uppercase;
+        font-weight: var(--font-weight-black);
+        font-size: 30px;
+        color: var(--color-text-grey);
+        padding: 10px 34px;
+    }
 }
 
 
@@ -55,14 +101,32 @@ header {
       display: flex;
       justify-content: flex-end;
       align-items: center;
-       
+      height: 140px;  
+      border-radius: 30px;
+      background-color: color-mix(in srgb, var(--color-pink) 10%, transparent);
+      position: fixed;
+      width: calc(100vw - 10px);
+
+      a {
+        text-transform: uppercase;
+        font-weight: var(--font-weight-black);
+        font-size: 32px;
+        color: var(--color-white);
+        margin: 30px;
+      }
+
+      a:hover {
+        color: var(--color-pink);
+      }
+
     }
 
     .navbarElements {
       display: flex;
-      gap: 20px;
-      align-content: last baseline;
+      gap: 40px;
       list-style: none;
+
+
     }
 
     .tabletMobileNavbar, 
