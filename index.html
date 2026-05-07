@@ -16,16 +16,18 @@
     <!-- ============================= -->
     <!--            COOKIES            -->
     <!-- ============================= -->
-    <div class="cookies">
-      <p>
-        Cookie disclaimer text will go here, yes. It will be some GDPR compliant text for all markets, we will not
-        ignore visitors who're outside of the EU because it will become too difficult at this stage. Hopefully this text
-        will fit onto a maximum of three lines.
-      </p>
-      <div>
-        <button>Accept</button>
-        <button>Decline</button>
-        <button>Settings</button>
+    <div class="cookies-background">
+      <div class="cookies">
+        <p>
+          Cookie disclaimer text will go here, yes. It will be some GDPR compliant text for all markets, we will not
+          ignore visitors who're outside of the EU because it will become too difficult at this stage. Hopefully this
+          text will fit onto a maximum of three lines.
+        </p>
+        <div>
+          <button id="accept-cookies">Accept</button>
+          <button id="decline-cookies">Decline</button>
+          <button>Settings</button>
+        </div>
       </div>
     </div>
 
@@ -101,9 +103,19 @@
 </div>
       <!-- Newsletter -->
 
-      <div>
-        <img src="" alt="" />
-        <form></form>
+      <div class="newsletter-wrapper">
+        <button class="popup-trigger" id="trigger-btn">
+          <img src="public/assets/contents/newsletter.png" alt="newsletter-icon" />
+        </button>
+        <div class="popup-bubble" id="newsletter-bubble">
+          <button class="close-btn" id="close-btn">&times;</button>
+          <h2>Get notified</h2>
+          <form>
+            <label for="email">Stay in the loop with all our latest updates.</label>
+            <input type="email" id="email" placeholder="Email address" required />
+            <button class="submit-btn" type="submit">Sign up</button>
+          </form>
+        </div>
       </div>
 
       <!-- ABOUT US -->
@@ -142,17 +154,19 @@
     <!--             FOOTER             -->
     <!-- ============================== -->
     <footer>
-      <hr />
-      <div>
-        <div>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Cookies</a>
+      
+        <hr />
+        <div class="footer-wrapper">
+          <div>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookies</a>
+          </div>
+          <div>
+            <a href="#">Contact</a>
+            <a href="#">Find Us</a>
+          </div>
         </div>
-        <div>
-          <a href="#">Contact</a>
-          <a href="#">Find Us</a>
-        </div>
-      </div>
+     
     </footer>
 
     <!-- Script -->

@@ -1,11 +1,13 @@
 @use 'variables' as *;
 
 footer {
-  width: 100%;
   padding: 2rem;
 
   hr {
     margin-bottom: 1rem;
+    border: none;
+    height: 10px;
+    background-color: var(--color-green);
   }
 
   > div {
@@ -20,5 +22,17 @@ footer {
   a {
     display: block;
     margin-bottom: 0.5rem;
+    color: var(--color-text-grey);
+    font-weight: var(--font-weight-semibold);
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  @media (min-width: 1024px) {
+    padding-bottom: 15rem;
+
+    a:hover {
+      color: var(--color-yellow);
+    }
   }
 }
