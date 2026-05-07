@@ -37,25 +37,23 @@
     <header>
       <nav class="tabletMobileNavbar">
         <button class="toggleMenuBtn tablet mobile" id="toggleHamburgerMenu">
-          <svg xmlns="http://www.w3.org/2000/svg" 
-          height="40px" 
-          viewBox="120 -720 720 480" 
-          width="40px" 
-          fill="#000">
-          <path d="M160-240q-17 0-28.5-11.5T120-280q0-17 11.5-28.5T160-320h640q17 0 28.5 11.5T840-280q0 17-11.5 28.5T800-240H160Zm0-200q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520h640q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440H160Zm0-200q-17 0-28.5-11.5T120-680q0-17 11.5-28.5T160-720h640q17 0 28.5 11.5T840-680q0 17-11.5 28.5T800-640H160Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="120 -720 720 480" width="40px" fill="#000">
+            <path
+              d="M160-240q-17 0-28.5-11.5T120-280q0-17 11.5-28.5T160-320h640q17 0 28.5 11.5T840-280q0 17-11.5 28.5T800-240H160Zm0-200q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520h640q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440H160Zm0-200q-17 0-28.5-11.5T120-680q0-17 11.5-28.5T160-720h640q17 0 28.5 11.5T840-680q0 17-11.5 28.5T800-640H160Z"
+            />
+          </svg>
         </button>
         <button class="closeMobileMenu hidden" id="closeMobileMenu">
-          <svg xmlns="http://www.w3.org/2000/svg" 
-          height="35px" 
-          viewBox="120 -720 720 480" 
-          width="35px" 
-          fill="#000">
-          <path d="M480-424 284-228q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536-480l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-424Z"/>/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="120 -720 720 480" width="35px" fill="#000">
+            <path
+              d="M480-424 284-228q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536-480l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-424Z"
+            />
+            />
+          </svg>
         </button>
       </nav>
-      
+
       <div class="mobileTabletDropdown" aria-hidden="true">
-        
         <ul class="mobileTabletDropdownElements">
           <li><a href="#">Pre-order</a></li>
           <li><a href="#">About us</a></li>
@@ -76,31 +74,30 @@
     <!--             MAIN              -->
     <!-- ============================= -->
     <main>
-     <!-- Heading 1 -->
-      <div class="hero-section">
-  <div class="bg-img">
-    <img src="/assets/contents/cropped-bg-img.jpg" width="736" height="1305" alt="" aria-hidden="true" />
+      <!-- Heading 1 -->
+      <section class="hero">
+        <img class="hero-bg" src="/assets/contents/cropped-bg-img.jpg" alt="" aria-hidden="true" />
 
-    <!-- Hero top -->
-    <div class="hero-top">
-      <h1 class="hero-heading">Negative <br />Space</h1>
+        <div class="hero-top">
+          <h1>Negative<br />Space</h1>
+          <button>Pre-Order</button>
+        </div>
 
-      <!-- Pre-Order Button -->
-      <button class="pre-order-btn">Pre-Order</button>
-    </div>
+        <div class="story-blob">
+          <img src="/assets/contents/about-the-game-box.png" alt="" aria-hidden="true" />
 
-    <!-- STORY -->
-    <div class="blob-img">
-      <img src="/assets/contents/about-the-game-box.png" width="943" height="588" alt="" aria-hidden="true" />
-      <div class="story-wrapper">
-        <h2 class="story-heading">Story</h2>
-        <p class="story-text">The martians planets resources is decreasing in a frightening pace so four brave astronaut trainee's applied to go on a mission to find a better planet with water so that humanity can survive. The mission is called...</p>
-        <p><em>Expedition Positive Space.</em></p>
-      </div>
-    </div>
+          <div class="story-content">
+            <h2>Story</h2>
+            <p>
+              The martians planets resources is decreasing in a frightening pace so four brave astronaut trainee's
+              applied to go on a mission to find a better planet with water so that humanity can survive. The mission is
+              called...
+            </p>
+            <p><em>Expedition Positive Space.</em></p>
+          </div>
+        </div>
+      </section>
 
-  </div>
-</div>
       <!-- Newsletter -->
 
       <div class="newsletter-wrapper">
@@ -154,19 +151,17 @@
     <!--             FOOTER             -->
     <!-- ============================== -->
     <footer>
-      
-        <hr />
-        <div class="footer-wrapper">
-          <div>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Cookies</a>
-          </div>
-          <div>
-            <a href="#">Contact</a>
-            <a href="#">Find Us</a>
-          </div>
+      <hr />
+      <div class="footer-wrapper">
+        <div>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookies</a>
         </div>
-     
+        <div>
+          <a href="#">Contact</a>
+          <a href="#">Find Us</a>
+        </div>
+      </div>
     </footer>
 
     <!-- Script -->
