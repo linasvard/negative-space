@@ -1,4 +1,4 @@
-import "../styles/styles.scss";
+import '../styles/styles.scss';
 
 import { initNav } from './nav.js';
 import { initNewsletter } from './newsletter.js';
