@@ -3,15 +3,45 @@
 }
 
 .hero-section {
+position: relative;
+}
 
+.bg-img img {
+       position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-position: center center;
 }
 
 .hero-top {
   display: flex;
   flex-direction: column;
   align-items: center;
+   position: relative;
 }
 
 .story-section {
   position: relative;
+  height: 100vh;
+}
+
+.blob-img {
+  position: absolute;
+    top: 145%;
+    left: 35%;
+    width: 60%;
+}
+
+.blob-img img {
+    width: 100%;
+    height: auto;
+}
+
+.story-wrapper {
+    position: absolute;
+    top: 158%;
+    left: 48%;
+    width: 40%;
 }
