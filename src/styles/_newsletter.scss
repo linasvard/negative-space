@@ -2,8 +2,10 @@
 
 .newsletter-wrapper {
   position: fixed;
-  top: 10px;
+  top: 500px;
   left: 12px;
+  display: flex;
+  align-items: flex-end;
   z-index: 1000;
 }
 
@@ -14,6 +16,9 @@
     border: none;
      padding: 0;
     display: block;
+    cursor: pointer;
+    z-index: 2;
+
 
 }
 
@@ -24,9 +29,82 @@
 }
 
 .popup-bubble {
-display: none;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+position: absolute;
+width: 352px;
+min-height: 151px;
+padding: 16px 8px;
+bottom: 60px;
+left: 40px;
+background-color: var(--color-yellow);
+border-radius: 16px;
+border: none;
+z-index: 100;
+box-sizing: border-box;
+
 }
 
+.popup-bubble ::after {
+content: "";
+position: absolute;
+bottom: -30px;
+left: 20px;
+border-width: 50px 50px 0 0;
+border-style: solid;
+border-color: var(--color-yellow) transparent transparent transparent;
+transform: rotate(15deg);
+z-index: -1;
+}
+
+.close-btn {
+position: absolute;
+top: 10px;
+right: 15px;
+background: none;
+border: none;
+font-size: 1.5rem;
+cursor: pointer;
+color: var(--color-white);
+
+}
+.popup-bubble label {
+display: block;
+margin-bottom: 12px;
+font-size: 1rem;
+color: black;
+text-align: left;
+}
+
+.popup-bubble input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+
+}
+
+.popup-bubble .submit-btn {
+  background-color: var(--color-lilac);
+  color: black;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  width: fit-content;
+  align-self: center;
+  
+
+ 
+
+}
 
 
 @media screen and (min-width: 765px) and (max-width: 1023px) {
@@ -49,7 +127,8 @@ display: none;
   object-fit: contain;
 }
 
-}
+
+
 
 @media screen and (min-width: 1024px) {
 
@@ -71,5 +150,6 @@ left: 35px;
   height: 100%;
   object-fit: cover;
 }
-}
 
+}
+}
