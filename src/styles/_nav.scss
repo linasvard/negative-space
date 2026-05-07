@@ -1,0 +1,72 @@
+@use 'variables' as *;
+
+/* ==========================
+📱 MOBILE & TABLET NAVIGATION
+ ========================== */
+.hidden {
+  display: none;
+}
+
+header {
+  position: relative;
+}
+
+ .tabletMobileNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1001; 
+}
+
+.mobileTabletDropdown {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 75%;
+    max-width: 450px; 
+    background-color: beige;
+    padding-top: 60px;
+    z-index: 1000;
+}
+
+.mobileTabletDropdownElements {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+}
+
+
+.desktopNavbar {
+  display: none;
+}
+
+
+
+/* ==========================
+💻 DESKTOP NAVIGATION
+========================== */
+
+@media (min-width: 1024px) {
+
+    .desktopNavbar {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+       
+    }
+
+    .navbarElements {
+      display: flex;
+      gap: 20px;
+      align-content: last baseline;
+      list-style: none;
+    }
+
+    .tabletMobileNavbar, 
+    .mobileTabletDropdown {
+      display: none;
+    }
+}
