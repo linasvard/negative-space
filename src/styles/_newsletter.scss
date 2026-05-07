@@ -18,8 +18,6 @@
     display: block;
     cursor: pointer;
     z-index: 2;
-
-
 }
 
 .popup-trigger img {
@@ -45,7 +43,6 @@ border-radius: 16px;
 border: none;
 z-index: 100;
 box-sizing: border-box;
-
 }
 
 .popup-bubble ::after {
@@ -69,8 +66,8 @@ border: none;
 font-size: 1.5rem;
 cursor: pointer;
 color: var(--color-white);
-
 }
+
 .popup-bubble label {
 display: block;
 margin-bottom: 12px;
@@ -88,7 +85,6 @@ text-align: left;
     margin-bottom: 15px;
     text-transform: uppercase;
     box-sizing: border-box;
-
 }
 
 .popup-bubble .submit-btn {
@@ -100,10 +96,6 @@ text-align: left;
   cursor: pointer;
   width: fit-content;
   align-self: center;
-  
-
- 
-
 }
 
 
@@ -118,7 +110,6 @@ text-align: left;
   height: 62px;
   background: none;
   border: none;
-
 }
 
 .popup-trigger img {
@@ -126,9 +117,6 @@ text-align: left;
   height: 100%;
   object-fit: contain;
 }
-
-
-
 
 @media screen and (min-width: 1024px) {
 
