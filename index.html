@@ -16,16 +16,18 @@
     <!-- ============================= -->
     <!--            COOKIES            -->
     <!-- ============================= -->
-    <div class="cookies">
-      <p>
-        Cookie disclaimer text will go here, yes. It will be some GDPR compliant text for all markets, we will not
-        ignore visitors who're outside of the EU because it will become too difficult at this stage. Hopefully this text
-        will fit onto a maximum of three lines.
-      </p>
-      <div>
-        <button>Accept</button>
-        <button>Decline</button>
-        <button>Settings</button>
+    <div class="cookies-background">
+      <div class="cookies">
+        <p>
+          Cookie disclaimer text will go here, yes. It will be some GDPR compliant text for all markets, we will not
+          ignore visitors who're outside of the EU because it will become too difficult at this stage. Hopefully this
+          text will fit onto a maximum of three lines.
+        </p>
+        <div>
+          <button id="accept-cookies">Accept</button>
+          <button id="decline-cookies">Decline</button>
+          <button>Settings</button>
+        </div>
       </div>
     </div>
 
@@ -35,25 +37,20 @@
     <header>
       <nav class="tabletMobileNavbar">
         <button class="toggleMenuBtn tablet mobile" id="toggleHamburgerMenu">
-          <svg xmlns="http://www.w3.org/2000/svg" 
-          height="35px" 
-          viewBox="100 -860 760 640" 
-          width="35px" 
-          fill="#000">
-          <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="100 -860 760 640" width="35px" fill="#000">
+            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+          </svg>
         </button>
         <button class="closeMobileMenu hidden" id="closeMobileMenu">
-          <svg xmlns="http://www.w3.org/2000/svg" 
-          height="35px" 
-          viewBox="100 -860 760 640" 
-          width="35px" 
-          fill="#000">
-          <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="100 -860 760 640" width="35px" fill="#000">
+            <path
+              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+            />
+          </svg>
         </button>
       </nav>
-      
+
       <div class="mobileTabletDropdown tablet mobile hidden">
-        
         <ul class="mobileTabletDropdownElements">
           <li><a href="#">Pre-order</a></li>
           <li><a href="#">About us</a></li>
