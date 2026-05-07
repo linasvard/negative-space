@@ -4,6 +4,7 @@
 
 .hero-section {
 position: relative;
+display: none; // KOM IHÅG!!!!!!!!!
 }
 
 .bg-img img {
@@ -13,6 +14,7 @@ position: relative;
     width: 100%;
     height: auto;
     object-position: center center;
+  
 }
 
 .hero-top {

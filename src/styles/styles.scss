@@ -46,3 +46,9 @@ button {
   font-size: 18px;
   font-weight: var(--font-weight-semibold);
 }
+
+
+.about-us, .footer-wrapper, hr{
+  max-width: 1440px;
+  margin: 0 auto;
+}
