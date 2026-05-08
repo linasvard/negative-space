@@ -90,6 +90,14 @@
   letter-spacing: 0.08em;
 }
 
+.hero-rocket {
+    position: absolute;
+    left: 15%;
+    top: 28%;
+    width: 10%;
+    transform: rotate(-75deg);
+}
+
 @media (min-width: 1024px) {
   .hero-top {
     top: 14%;
