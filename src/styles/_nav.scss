@@ -9,15 +9,15 @@
 
 header {
   position: fixed;
-  z-index: 1000; /* KOM IHÅG: bytte från relative till fixed */
+  z-index: 1000;
 }
 
- .tabletMobileNavbar {
+.tabletMobileNavbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
-  z-index: 1001; 
+  z-index: 1001;
 
   .toggleMenuBtn,
   .closeMobileMenu {
@@ -26,7 +26,6 @@ header {
   }
 
   .toggleMenuBtn svg {
-    
     fill: var(--color-yellow);
   }
 
@@ -39,99 +38,94 @@ header {
     height: 30px;
     fill: var(--color-text-grey);
   }
-
 }
 
 .mobileTabletDropdown {
-    transform: translateY(-110%);
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    transition: transform 0.2s ease, opacity 0.2s ease, visibility 0.2s ease;
+  transform: translateY(-110%);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease,
+    visibility 0.2s ease;
 
-    position: absolute;
-    top: 0; 
-    left: 0;
-    width: calc(100vw - 30vw);
-    height: 480px; 
-    max-width: 450px;
-    background-color: color-mix(in srgb, var(--color-dark-blue) 90%, transparent);
-    padding-top: 60px;
-    z-index: 1000;
-    border-radius: 30px;
-    padding-top: 90px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100vw - 30vw);
+  height: 480px;
+  max-width: 450px;
+  background-color: color-mix(in srgb, var(--color-dark-blue) 90%, transparent);
+  padding-top: 60px;
+  z-index: 1000;
+  border-radius: 30px;
+  padding-top: 90px;
 }
 
 .mobileTabletDropdown.open {
   transform: translateX(0);
   opacity: 1;
   visibility: visible;
-  pointer-events: auto; 
+  pointer-events: auto;
 }
 
 .mobileTabletDropdownElements {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 0;
 
-    a {
-        text-transform: uppercase;
-        font-weight: var(--font-weight-black);
-        font-size: 30px;
-        color: var(--color-text-grey);
-        padding: 10px 34px;
-    }
+  a {
+    text-transform: uppercase;
+    font-weight: var(--font-weight-black);
+    font-size: 30px;
+    color: var(--color-text-grey);
+    padding: 10px 34px;
+  }
 }
-
 
 .desktopNavbar {
   display: none;
 }
-
-
 
 /* ==========================
 💻 DESKTOP NAVIGATION
 ========================== */
 
 @media (min-width: 1024px) {
+  .desktopNavbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 140px;
+    border-radius: 30px;
+    background-color: color-mix(in srgb, var(--color-pink) 10%, transparent);
+    position: fixed;
+    width: calc(100vw - 10px);
 
-    .desktopNavbar {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      height: 140px;  
-      border-radius: 30px;
-      background-color: color-mix(in srgb, var(--color-pink) 10%, transparent);
-      position: fixed;
-      width: calc(100vw - 10px);
-
-      a {
-        text-transform: uppercase;
-        font-weight: var(--font-weight-black);
-        font-size: 32px;
-        color: var(--color-white);
-        margin: 30px;
-      }
-
-      a:hover {
-        color: var(--color-pink);
-      }
-
+    a {
+      text-transform: uppercase;
+      font-weight: var(--font-weight-black);
+      font-size: 32px;
+      color: var(--color-white);
+      margin: 30px;
     }
 
-    .navbarElements {
-      display: flex;
-      gap: 40px;
-      list-style: none;
-
-
+    a:hover {
+      color: var(--color-pink);
     }
+  }
 
-    .tabletMobileNavbar, 
-    .mobileTabletDropdown {
-      display: none;
-    }
+  .navbarElements {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+  }
+
+  .tabletMobileNavbar,
+  .mobileTabletDropdown {
+    display: none;
+  }
 }
