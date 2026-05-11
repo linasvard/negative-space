@@ -12,7 +12,7 @@
 ![Desktop](Screenshots/Desktop.png)
 
 ### Tablet
-![Tablet hero section](Screenshots/Tablet-hero.png)
+![Tablet hero](Screenshots/Tablet-hero.png)
 ![Tablet Avatars](Screenshots/Tablet-avatars.png)
 
 ### Mobil
