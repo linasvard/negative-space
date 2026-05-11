@@ -12,10 +12,12 @@
 ![Desktop](Screenshots/Desktop.png)
 
 ### Tablet
-![Tablet](screenshots/tablet.png)
+![Tablet hero section](Screenshots/Tablet-hero.png)
+![Tablet Avatars](Screenshots/Tablet-avatars.png)
 
 ### Mobil
-![Mobil](screenshots/mobile.png)
+![Mobil hero](Screenshots/Mobile-hero.png)
+![Mobil Avatars](Screenshots/Mobile-avatars.png)
 
 ## Om designen
 
