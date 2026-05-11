@@ -35,13 +35,14 @@ border: none;
 height: 50px;
 width: 75vw;
 max-width: 450px;
+font-size: 24px;
 }
 
 input::placeholder {
   text-transform: uppercase;
   font-size: 24px;
   font-weight: 500;
-  color: #000;
+  color: rgba(0, 0, 0, 0.8);
 } 
 
 label {
@@ -68,6 +69,10 @@ label {
     }
 }
 
+.close-preorder-btn:hover svg {
+    fill: #fff;
+}
+
 .submit-pre-order-btn, .close-preorder-btn-form {
   background-color: var(--color-yellow);
   font-size: 20px;
@@ -77,7 +82,7 @@ label {
   font-weight: 800;
   margin-top: 25px;
   width: 150px;
-   cursor: pointer;
+  cursor: pointer;
 }
 
 
@@ -149,6 +154,10 @@ svg {
   }
 
 }    
+
+/* ============================
+    DESKTOP (1024px)
+    ============================ */
 
 @media (min-width: 1024px) {
   .submit-pre-order-btn:hover {
