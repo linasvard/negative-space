@@ -1,0 +1,198 @@
+@use 'variables' as *;
+
+//LINA
+.pre-order-popup-wrapper {
+background-color: var(--preorder-popup);
+display: flex;
+position: fixed;
+top: 50vh;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 9999;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: calc(100vw - 15px);
+border-radius: 20px;
+border: 1px solid black;
+padding: 30px 10px;
+max-width: 600px;
+
+img {
+  width: 360px;
+  max-width: 400px;
+}
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+input {
+padding: 10px 20px;
+margin-bottom: 0;
+border: none;
+height: 50px;
+width: 75vw;
+max-width: 450px;
+font-size: 24px;
+}
+
+input::placeholder {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.8);
+} 
+
+label {
+  visibility: hidden;
+}
+
+}
+
+
+}
+
+
+.close-preorder-btn {
+    background: none;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+
+    svg {
+        width: 30px;
+        height: 30px;
+        fill: #E3E3E3;
+    }
+}
+
+
+
+.submit-pre-order-btn, .close-preorder-btn-form {
+  background-color: var(--color-yellow);
+  font-size: 20px;
+  color: #000;
+  border: none;
+  height: 46px;
+  font-weight: 800;
+  margin-top: 25px;
+  width: 150px;
+  cursor: pointer;
+}
+
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-message-wrapper {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 10px;
+margin-top: 2px;
+text-align: left;
+background-color: var(--color-yellow);
+padding: 5px 10px;
+width: 90%;
+
+svg {
+  width: 20px;
+  height: 20px;
+  fill: #e3e3e3;
+  background-color: #F66666;
+  padding: 2px;
+}
+
+}
+
+.hidden {
+  display: none;
+}
+#preorderPopupWrapper {
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  visibility: hidden;
+}
+
+#preorderPopupWrapper.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.pre-order-btn {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--color-dark-blue);
+  height: 40px;
+  padding: 0 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* ============================
+    TABLET (765px)
+    ============================ */
+
+@media (min-width: 765px) {
+  
+  .pre-order-popup-wrapper {
+    max-width: 600px;
+
+  img {
+  width: 320px;
+  height: auto;
+}
+  }
+  
+  .button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+   
+  }
+
+  .pre-order-btn {
+    font-size: 18px;
+    height: 50px;
+    padding: 0 40px;
+  }
+
+}    
+
+/* ============================
+    DESKTOP (1024px)
+    ============================ */
+
+@media (min-width: 1024px) {
+
+  .pre-order-btn {
+    font-size: 30px;
+    height: 80px;
+    padding: 0 50px;
+  }
+
+  .pre-order-btn:hover {
+    background-color: var(--color-yellow);
+  }
+  .submit-pre-order-btn:hover {
+    background-color: var(--color-blue);
+  }
+  .close-preorder-btn-form:hover {
+    background-color: var(--color-red);
+  }
+  .close-preorder-btn:hover svg {
+    fill: #fff;
+}
+
+
+}
