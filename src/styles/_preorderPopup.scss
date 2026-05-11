@@ -69,9 +69,7 @@ label {
     }
 }
 
-.close-preorder-btn:hover svg {
-    fill: #fff;
-}
+
 
 .submit-pre-order-btn, .close-preorder-btn-form {
   background-color: var(--color-yellow);
@@ -166,4 +164,7 @@ svg {
   .close-preorder-btn-form:hover {
     background-color: var(--color-red);
   }
+  .close-preorder-btn:hover svg {
+    fill: #fff;
+}
 }
