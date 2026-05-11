@@ -10,6 +10,12 @@
   display: block;
 }
 
+.hero-bg-mobile {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
 .hero-top {
   position: absolute;
   top: 8%;
@@ -91,11 +97,11 @@
 }
 
 .hero-rocket {
-    position: absolute;
-    left: 15%;
-    top: 28%;
-    width: 10%;
-    transform: rotate(-75deg);
+  position: absolute;
+  left: 15%;
+  top: 28%;
+  width: 10%;
+  transform: rotate(-75deg);
 }
 
 @media (min-width: 1024px) {
@@ -109,5 +115,27 @@
 
   .story-blob {
     max-width: 980px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-bg {
+    display: none;
+  }
+
+  .hero-bg-mobile {
+    display: block;
+  }
+
+  .story-blob {
+    top: 55%;
+    right: 0.5rem;
+    width: 72%;
+  }
+
+  .hero-rocket {
+    top: 40%;
+    left: 18%;
+    width: 11%;
   }
 }
