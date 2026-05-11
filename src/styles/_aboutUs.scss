@@ -1,7 +1,9 @@
 @use 'variables' as *;
 
+/*ABOUT US SECTION */
+
 /* ===============================
-   ABOUT US SECTION - MOBILE FIRST
+   MOBILE FIRST
 ================================== */
 
 .about-us {
@@ -10,7 +12,7 @@
   padding: 3rem;
 }
 
-/* TEXT*/
+/* TEXT */
 .about-us-text {
   text-align: left;
   margin-bottom: 2rem;
@@ -19,7 +21,6 @@
 h2.about-us-h2 {
   color: var(--color-text-grey);
   font-size: 1.8rem;
-  font-weight: 900;
   margin-bottom: 2rem;
 }
 
@@ -29,7 +30,6 @@ p.about-us-p {
 }
 
 /* IMAGES */
-
 .about-us-images {
   display: grid;
   grid-template-columns: 1fr;
@@ -46,19 +46,19 @@ p.about-us-p {
   margin-top: 1rem;
 }
 
-/* ============================
-   TABLET (765px–1023px)
-   ============================ */
+/* ===============================
+   TABLET (min-width: 765px)
+================================== */
 @media (min-width: 765px) {
   .about-us-images {
     grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
   }
 
   h2.about-us-h2 {
     font-size: 3.2rem;
     margin-bottom: 3rem;
   }
+
   p.about-us-p {
     font-size: 2.5rem;
     margin-bottom: 1.8rem;
@@ -66,10 +66,10 @@ p.about-us-p {
   }
 }
 
-/* ============================
-   DESKTOP (1024px-1169px)
-   ============================ */
-@media (min-width: 1024px) and (max-width: 1169px) {
+/* ===============================
+   DESKTOP (min-width: 1024px)
+================================== */
+@media (min-width: 1024px) {
   .about-us {
     flex-direction: row;
     align-items: center;
@@ -82,69 +82,41 @@ p.about-us-p {
   .about-us-images {
     flex: 1;
     grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-  }
-  .about-us-images img {
-    min-width: 315px;
-    width: 100%;
-    height: auto;
-    padding-left: 3rem;
   }
 
-  h2.about-us-h2 {
-    font-size: 3.2rem;
-    margin-bottom: 3rem;
+  .about-us-images img {
+    min-width: 315px;
+    padding-left: 1rem;
   }
+
   p.about-us-p {
     font-size: 1.8rem;
-    margin-bottom: 1.5rem;
     padding-right: 1rem;
   }
 }
 
-/* ============================
-   DESKTOP (1170px+)
-   ============================ */
+/* ===============================
+   LARGE DESKTOP (min-width: 1170px)
+================================== */
 @media (min-width: 1170px) {
-  .about-us {
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .about-us-text {
-    flex: 1;
-  }
-
-  .about-us-images {
-    flex: 1;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-  }
-  .about-us-images img {
-    min-width: 315px;
-    width: 100%;
-    height: auto;
-    padding-left: 1rem;
-  }
-
   h2.about-us-h2 {
     font-size: 4.5rem;
-    margin-bottom: 3rem;
   }
+
   p.about-us-p {
     font-size: 2rem;
-    margin-bottom: 1.5rem;
     padding-right: 4rem;
   }
 }
 
-/* ============================
-   DESKTOP (1400px+)
-   ============================ */
+/* ===============================
+   XL DESKTOP (min-width: 1400px)
+================================== */
 @media (min-width: 1400px) {
   h2.about-us-h2 {
     font-size: 5rem;
   }
+
   p.about-us-p {
     padding-right: 7rem;
   }
