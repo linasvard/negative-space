@@ -10,8 +10,8 @@ const submitPreorderBtn = document.querySelector('#submitPreorderBtn');
 const emailErrorMessage = document.querySelector('#emailError');
 const nameErrorMessage = document.querySelector('#nameError');
 
-submitPreorderBtn.ariaDisabled = 'true';
-/*preorderBtn.addEventListener('click', () => {
+/*submitPreorderBtn.ariaDisabled = 'true';
+preorderBtn.addEventListener('click', () => {
   preorderPopup.classList.add('open');
   preorderPopup.setAttribute('aria-hidden', 'false');
 })
