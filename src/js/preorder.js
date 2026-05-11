@@ -10,7 +10,7 @@ const submitPreorderBtn = document.querySelector('#submitPreorderBtn');
 const emailErrorMessage = document.querySelector('#emailError');
 const nameErrorMessage = document.querySelector('#nameError');
 
-/*submitPreorderBtn.ariaDisabled = 'true';
+submitPreorderBtn.ariaDisabled = 'true';
 preorderBtn.addEventListener('click', () => {
   preorderPopup.classList.add('open');
   preorderPopup.setAttribute('aria-hidden', 'false');
@@ -19,7 +19,7 @@ preorderBtn.addEventListener('click', () => {
 closePreorderBtn.addEventListener('click', () => {
   preorderPopup.classList.remove('open');
   preorderPopup.setAttribute('aria-hidden', 'true');  
-}) */
+})
 
 function validateName(value) {
   return nameRegex.test(value) && value.trim().length >= 2;
