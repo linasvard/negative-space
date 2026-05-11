@@ -21,6 +21,7 @@ footer {
 h1,
 h2 {
   text-transform: uppercase;
+  font-weight: var(--font-weight-black);
 }
 
 p {
@@ -47,8 +48,9 @@ button {
   font-weight: var(--font-weight-semibold);
 }
 
-
-.about-us, .footer-wrapper, hr{
+.about-us,
+.footer-wrapper,
+hr {
   max-width: 1440px;
   margin: 0 auto;
 }

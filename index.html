@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="./assets/contents/favicon_rocket.png" width="90px" height="90px" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vite-project</title>
+    <title>Negative Space</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,10 +35,15 @@
       </div>
     </div>
 
-    <!-- ============================= -->
-    <!--    HEADER & NAVIGATION BAR    -->
-    <!-- ============================= -->
+    <!-- ===================================== -->
+    <!-- ************** HEADER *************** -->
+    <!-- ===================================== -->
+
     <header>
+      <!-- ================================ -->
+      <!--  NAVIGATION BAR MOBILE/TABLETT   -->
+      <!-- ================================ -->
+
       <nav class="tabletMobileNavbar">
         <button class="toggleMenuBtn tablet mobile" id="toggleHamburgerMenu">
           <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="120 -720 720 480" width="40px" fill="#000">
@@ -57,6 +62,10 @@
         </button>
       </nav>
 
+      <!-- ============================= -->
+      <!--     MOBILE DROPDOWN MENU      -->
+      <!-- ============================= -->
+
       <div class="mobileTabletDropdown" aria-hidden="true">
         <ul class="mobileTabletDropdownElements">
           <li><a href="#">Pre-order</a></li>
@@ -64,6 +73,10 @@
           <li><a href="#">Cool link</a></li>
         </ul>
       </div>
+
+      <!-- ============================= -->
+      <!--       NAVIGATION DESKTOP      -->
+      <!-- ============================= -->
 
       <nav class="desktopNavbar desktop">
         <ul class="navbarElements">
@@ -74,11 +87,15 @@
       </nav>
     </header>
 
-    <!-- ============================= -->
-    <!--             MAIN              -->
-    <!-- ============================= -->
+    <!-- =========================================== -->
+    <!-- ***************** MAIN *****************    -->
+    <!-- =========================================== -->
+
     <main>
-      <!-- Heading 1 -->
+      <!-- ============================= -->
+      <!--          HERO SECTION         -->
+      <!-- ============================= -->
+
       <section class="hero">
         <img class="hero-bg" src="/assets/contents/cropped-bg-img.jpg" alt="" aria-hidden="true" />
         <img class="hero-bg-mobile" src="/assets/contents/background-image (kopia).png" alt="" aria-hidden="true" />
@@ -104,7 +121,9 @@
         </div>
       </section>
 
-      <!-- Newsletter -->
+      <!-- ============================= -->
+      <!--           NEWSLETTER          -->
+      <!-- ============================= -->
 
       <div class="newsletter-wrapper">
         <button class="popup-trigger" id="trigger-btn">
@@ -123,9 +142,12 @@
         </div>
       </div>
 
-      <!-- ABOUT US -->
+      <!-- ============================= -->
+      <!--            ABOUT US           -->
+      <!-- ============================= -->
 
       <section class="about-us">
+        <!-- ABOUT US TEXT -->
         <div class="about-text">
           <h2 class="about-us-h2">About Us</h2>
           <p class="about-us-p">We are the creators of Negative Space — a story about survival in a fading world.</p>
@@ -135,7 +157,10 @@
           <p class="about-us-p">— a mission to find a new home and secure humanity's future.</p>
         </div>
 
-        <!-- Avatars -->
+        <!-- ============================= -->
+        <!--         AVATAR IMAGES         -->
+        <!-- ============================= -->
+
         <div class="about-us-images">
           <img src="/assets/contents/avatar-pilot.png" alt="Purple Martian Pilot Avatar" width="323" height="422" />
           <img src="/assets/contents/avatar-explorer.png" alt="Pink Martian Explorer Avatar" width="323" height="422" />
@@ -156,8 +181,8 @@
     </main>
 
     <!-- ============================= -->
-    <!--             FOOTER             -->
-    <!-- ============================== -->
+    <!-- ********** FOOTER **********  -->
+    <!-- ============================= -->
     <footer>
       <hr />
       <div class="footer-wrapper">
@@ -172,7 +197,10 @@
       </div>
     </footer>
 
-    <!-- Script -->
+    <!-- =============== -->
+    <!--     SCRIPT      -->
+    <!-- =============== -->
+
     <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>

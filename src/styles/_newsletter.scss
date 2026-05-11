@@ -9,14 +9,14 @@
 }
 
 .popup-trigger {
-  width: 33px;       
+  width: 33px;
   height: 33px;
   background: none;
-    border: none;
-     padding: 0;
-    display: block;
-    cursor: pointer;
-    z-index: 2;
+  border: none;
+  padding: 0;
+  display: block;
+  cursor: pointer;
+  z-index: 2;
 }
 
 .popup-trigger img {
@@ -26,10 +26,15 @@
 }
 
 .popup-bubble {
+  position: absolute;
+  width: 352px;
+  min-height: 151px;
+  bottom: 60px;
+  left: 40px;
 
 
 position: absolute;
-width: 352px;
+width: 322px;
 min-height: 151px;
 bottom: 60px;
 left: 40px;
@@ -39,68 +44,65 @@ border-radius: 30px;
 border: none;
 z-index: 100;
 box-sizing: border-box;
-display: flex;
+display: none;
 flex-direction: column;
 align-items: center;
 text-align: center;
 }
 
 .popup-bubble::after {
-content: "";
-position: absolute;
-bottom: -40px;
-left: 7px;
-border-width: 50px 50px 0 0;
-border-style: solid;
-border-color: var(--color-yellow) transparent transparent transparent;
-transform: rotate(15deg);
-z-index: -1;
+  content: '';
+  position: absolute;
+  bottom: -40px;
+  left: 7px;
+  border-width: 50px 50px 0 0;
+  border-style: solid;
+  border-color: var(--color-yellow) transparent transparent transparent;
+  transform: rotate(15deg);
+  z-index: -1;
 }
 
 .popup-bubble h2 {
-font-size: 1rem;
-color: black;
-font-weight: 900;
-padding: 10px;
+  font-size: 1rem;
+  color: black;
+  padding: 10px;
 }
 
-
 .close-btn {
-position: absolute;
-top: 3px;
-right: 22px;
-background: none;
-border: none;
-cursor: pointer;
-color: var(--color-white);
-width: 14px;
-height: 13px;
+  position: absolute;
+  top: 3px;
+  right: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-white);
+  width: 14px;
+  height: 13px;
 }
 
 .popup-bubble label {
-font-family: nunito, sans-serif;
-display: block;
-font-size: 0.75rem;
-font-weight: 400;
-color: black;
-text-align: center;
-text-transform: uppercase;
-padding-bottom: 10px;
-
+  font-family: nunito, sans-serif;
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
 .popup-bubble input {
-    display: block;
-width: 100%;
-    max-width: 259px;
-    height: 25px;
-    border-radius: 30px;
-    border: none;
-    padding: 10px 15px;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-    box-sizing: border-box;
-     margin: 0 auto 15px;
+  display: block;
+  width: 100%;
+  max-width: 259px;
+  height: 25px;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  margin: 0 auto 15px;
 }
 
 .popup-bubble .submit-btn {
@@ -110,19 +112,18 @@ width: 100%;
   border-radius: 30px;
   cursor: pointer;
   width: 100px;
-height: 32px;
-   display: flex;
+  height: 32px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size:0.875rem;
+  font-size: 0.875rem;
   margin: 0 auto;
-
 }
 
 
-@media (min-width: 765px) and (max-width: 1023px) {
+@media (min-width: 765px) {
 .newsletter-wrapper {
-  top: 500px;
+  top: 800px;
   left: 22px;
 
 }
@@ -171,51 +172,5 @@ height: 40px;
 font-size:1.375rem;
 }
 }
-
-
-@media (min-width: 1024px) {
-
-.newsletter-wrapper {
-top: 600px;
-left: 35px;
-}
-
-.popup-trigger {
-width: 169px;       
-height: 169px;
-}
-
-
-.popup-bubble {
-width: 606px;
-min-height: 280px;
-bottom: 200px;
-left: 150px;
-}
-
-.popup-bubble h2 {
-font-size: 2.5rem;
-padding: 10px;
-}
-
-
-.popup-bubble label {
-font-size: 1.25rem;
-}
-
-.popup-bubble input {
-
-width: 100%;
-    max-width: 505px;
-    height: 46px;
-}
-
-.popup-bubble .submit-btn {
- width: 150px;
-height: 60px;
-font-size:1.5rem;
-}
-}
-
 
 
