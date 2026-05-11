@@ -126,6 +126,16 @@ svg {
   visibility: visible;
 }
 
+.pre-order-btn {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--color-dark-blue);
+  height: 40px;
+  padding: 0 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 /* ============================
     TABLET (765px)
     ============================ */
@@ -151,6 +161,12 @@ svg {
    
   }
 
+  .pre-order-btn {
+    font-size: 18px;
+    height: 50px;
+    padding: 0 40px;
+  }
+
 }    
 
 /* ============================
@@ -158,6 +174,16 @@ svg {
     ============================ */
 
 @media (min-width: 1024px) {
+
+  .pre-order-btn {
+    font-size: 30px;
+    height: 80px;
+    padding: 0 50px;
+  }
+
+  .pre-order-btn:hover {
+    background-color: var(--color-yellow);
+  }
   .submit-pre-order-btn:hover {
     background-color: var(--color-blue);
   }
@@ -167,4 +193,6 @@ svg {
   .close-preorder-btn:hover svg {
     fill: #fff;
 }
+
+
 }
