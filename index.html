@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./assets/contents/favicon_rocket.png" width="90px" height="90px" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Negative Space is a fictional game concept created as part of a graphic design course, telling the story of four astronaut trainees sent on Expedition Positive Space to find a new home as Mars's resources rapidly fade."
+    />
+
     <title>Negative Space</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -96,61 +101,70 @@
       <!--          HERO SECTION         -->
       <!-- ============================= -->
 
-    <!-- Hero top -->
-    <!-- Pre-Order Popup -->
-    <div class="pre-order-popup-wrapper" id="preorderPopupWrapper">
-      <button class="close-preorder-btn close-pop-up" id="closePreorderIconBtn" aria-label="Close popup window">
-        <svg xmlns="http://www.w3.org/2000/svg" 
-          height="35px" 
-          viewBox="120 -720 720 480" 
-          width="35px" 
-          fill="#000">
-          <path d="M480-424 284-228q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536-480l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-424Z"/>/>
-        </svg>
-      </button>  
-      <div class="preorder-img">
-        <img src="/assets/contents/cropped-avatar-pop-up.png" width="614" height="470" alt="" aria-hidden="true" />
+      <!-- Hero top -->
+      <!-- Pre-Order Popup -->
+      <div class="pre-order-popup-wrapper" id="preorderPopupWrapper">
+        <button class="close-preorder-btn close-pop-up" id="closePreorderIconBtn" aria-label="Close popup window">
+          <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="120 -720 720 480" width="35px" fill="#000">
+            <path
+              d="M480-424 284-228q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536-480l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-424Z"
+            />
+            />
+          </svg>
+        </button>
+        <div class="preorder-img">
+          <img
+            src="/assets/contents/cropped-avatar-pop-up.png"
+            width="614"
+            height="470"
+            alt=""
+            aria-hidden="true"
+            loading="lazy"
+          />
+        </div>
+        <div class="pre-order-form-wrapper">
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="preordername" placeholder="Name" required />
+            <div class="error-message-wrapper hidden" id="nameError">
+              <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="120 -720 720 480" width="35px" fill="#000">
+                <path
+                  d="M480-424 284-228q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536-480l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-424Z"
+                />
+                />
+              </svg>
+              <span class="error-message" id="nameError">Warning! Please enter a valid name</span>
+            </div>
+
+            <label for="email">Email address</label>
+            <input type="email" id="preorderemail" placeholder="Email address" required />
+            <div class="error-message-wrapper hidden" id="emailError">
+              <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="120 -720 720 480" width="35px" fill="#000">
+                <path
+                  d="M480-424 284-228q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536-480l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-424Z"
+                />
+                />
+              </svg>
+              <span class="error-message">Warning! Please enter a valid email address.</span>
+            </div>
+            <div class="button-wrapper">
+              <button class="submit-pre-order-btn" id="submitPreorderBtn" type="submit">Send</button>
+              <button class="close-preorder-btn-form close-pop-up" id="closePreorderInFormBtn">Cancel</button>
+            </div>
+          </form>
+        </div>
       </div>
-      <div class="pre-order-form-wrapper">
-        <form>
-          <label for="name">Name</label>
-          <input type="text" id="preordername" placeholder="Name" required>
-          <div class="error-message-wrapper hidden" id="nameError">
-            <svg xmlns="http://www.w3.org/2000/svg" 
-              height="35px" 
-              viewBox="120 -720 720 480" 
-              width="35px" 
-              fill="#000">
-              <path d="M480-424 284-228q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536-480l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-424Z"/>/>
-            </svg>
-            <span class="error-message" id="nameError">Warning! Please enter a valid name</span>
-          </div>
-          
-          <label for="email">Email address</label>
-          <input type="email" id="preorderemail" placeholder="Email address" required>
-          <div class="error-message-wrapper hidden" id="emailError">
-            <svg xmlns="http://www.w3.org/2000/svg" 
-              height="35px" 
-              viewBox="120 -720 720 480" 
-              width="35px" 
-              fill="#000">
-              <path d="M480-424 284-228q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536-480l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-424Z"/>/>
-            </svg>
-            <span class="error-message">Warning! Please enter a valid email address.</span>
-          </div>
-          <div class="button-wrapper">
-            <button class="submit-pre-order-btn" id="submitPreorderBtn" type="submit">Send</button>
-            <button class="close-preorder-btn-form close-pop-up" id="closePreorderInFormBtn">Cancel</button>
-          </div>
-        </form>
-       
-      </div>
-    </div>
-    
+
       <section class="hero">
-        <img class="hero-bg" src="/assets/contents/cropped-bg-img.jpg" alt="" aria-hidden="true" />
-        <img class="hero-bg-mobile" src="/assets/contents/background-image (kopia).png" alt="" aria-hidden="true" />
-        <img class="hero-rocket" src="/assets/contents/rocket.svg" alt="" aria-hidden="true" />
+        <img class="hero-bg" src="/assets/contents/cropped-bg-img.jpg" alt="" aria-hidden="true" loading="lazy" />
+        <img
+          class="hero-bg-mobile"
+          src="/assets/contents/background-image (kopia).png"
+          alt=""
+          aria-hidden="true"
+          loading="lazy"
+        />
+        <img class="hero-rocket" src="/assets/contents/rocket.svg" alt="" aria-hidden="true" loading="lazy" />
 
         <div class="hero-top">
           <h1>Negative<br />Space</h1>
@@ -158,7 +172,7 @@
         </div>
 
         <div class="story-blob">
-          <img src="/assets/contents/about-the-game-box.png" alt="" aria-hidden="true" />
+          <img src="/assets/contents/about-the-game-box.png" alt="" aria-hidden="true" loading="lazy" />
 
           <div class="story-content">
             <h2>Story</h2>
@@ -178,7 +192,7 @@
 
       <div class="newsletter-wrapper">
         <button class="popup-trigger" id="trigger-btn">
-          <img src="public/assets/contents/newsletter.png" alt="newsletter-icon" />
+          <img src="public/assets/contents/newsletter.png" alt="newsletter-icon" loading="lazy" />
         </button>
         <div class="popup-bubble" id="newsletter-bubble">
           <button class="close-btn" aria-label="close popup">
@@ -213,19 +227,33 @@
         <!-- ============================= -->
 
         <div class="about-us-images">
-          <img src="/assets/contents/avatar-pilot.png" alt="Purple Martian Pilot Avatar" width="323" height="422" />
-          <img src="/assets/contents/avatar-explorer.png" alt="Pink Martian Explorer Avatar" width="323" height="422" />
+          <img
+            src="/assets/contents/avatar-pilot.png"
+            alt="Purple Martian Pilot Avatar"
+            width="323"
+            height="422"
+            loading="lazy"
+          />
+          <img
+            src="/assets/contents/avatar-explorer.png"
+            alt="Pink Martian Explorer Avatar"
+            width="323"
+            height="422"
+            loading="lazy"
+          />
           <img
             src="/assets/contents/avatar-engineer.png"
             alt="Yellow Martian Engineer Avatar"
             width="323"
             height="422"
+            loading="lazy"
           />
           <img
             src="/assets/contents/avatar-pathfinder.png"
             alt="Green Martian Pathfinder Avatar"
             width="323"
             height="422"
+            loading="lazy"
           />
         </div>
       </section>
