@@ -1,7 +1,7 @@
 export function initPreorder() {
 const preorderBtn = document.querySelector('#preorderBtn');
 const preorderPopup = document.querySelector('#preorderPopupWrapper');
-const closePreorderBtn = document.querySelector('#closePreorderInFormBtn, #closePreorderIconBtn');
+const closePreorderBtns = document.querySelectorAll('.close-pop-up');
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const nameRegex = /^[a-zA-ZåäöÅÄÖ][a-zA-ZåäöÅÄÖ\s-]*$/;
 const emailInput = document.querySelector('#preorderemail');
@@ -16,9 +16,11 @@ preorderBtn.addEventListener('click', () => {
   preorderPopup.setAttribute('aria-hidden', 'false');
 })
 
-closePreorderBtn.addEventListener('click', () => {
-  preorderPopup.classList.remove('open');
-  preorderPopup.setAttribute('aria-hidden', 'true');  
+closePreorderBtns.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    preorderPopup.classList.remove('open');
+    preorderPopup.setAttribute('aria-hidden', 'true');  
+  })
 })
 
 function validateName(value) {
