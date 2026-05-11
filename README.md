@@ -62,6 +62,11 @@ npm install
 npm run dev
 ```
 
+## Tillgänglighet 🔍
+
+### Lighthouse rapport
+
+*Screenshots läggs till här efter testning.*
 
 
 
