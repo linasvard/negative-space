@@ -9,15 +9,16 @@
 ## Screenshots 📸
 
 ### Desktop
+
 ![Desktop](Screenshots/Desktop.png)
 
 ### Tablet
-![Tablet hero](Screenshots/Tablet-hero.png)
-![Tablet Avatars](Screenshots/Tablet-avatars.png)
+
+![Tablet hero](Screenshots/Tablet-hero.png) ![Tablet Avatars](Screenshots/Tablet-avatars.png)
 
 ### Mobil
-![Mobil hero](Screenshots/Mobile-hero.png)
-![Mobil Avatars](Screenshots/Mobile-avatars.png)
+
+![Mobil hero](Screenshots/Mobile-hero.png) ![Mobil Avatars](Screenshots/Mobile-avatars.png)
 
 ## Om designen
 
@@ -26,18 +27,18 @@ I detta projekt har vi designat en onepager för spelet Negative Space, där vi 
 [Design](https://www.figma.com/design/kNFnuK1cUeGFNAHNQAOXo4/Negative-Space?node-id=1-233&p=f&t=dTBdnw6UDA4NA8Di-0)
 
 ### Designers
+
 - Alex Minh Truong
 - Angelie Ångman
 - Maria Birath
 - Kimi Leminaho
 
-
 ## Om projektet 🪐
 
-Negative Space är ett spel om överlevnad. Mars resurser sinar och fyra astronautträningar skickas ut på ett livsavgörande uppdrag för att hitta en ny planet åt mänskligheten. Uppdraget kallas Expedition Positive Space.
-Vi är en grupp på fyra studenter som fick designen för spelets lanseringssida tilldelad av en annan grupp. 
+Negative Space är ett spel om överlevnad. Mars resurser sinar och fyra astronautträningar skickas ut på ett livsavgörande uppdrag för att hitta en ny planet åt mänskligheten. Uppdraget kallas Expedition Positive Space. Vi är en grupp på fyra studenter som fick designen för spelets lanseringssida tilldelad av en annan grupp.
 
 ### Kodare
+
 - Oscar Holmblad
 - Lina Svärd
 - Sandra Hellström
@@ -48,12 +49,7 @@ Vi är en grupp på fyra studenter som fick designen för spelets lanseringssida
 
 Sidan är byggd med HTML för struktur, SCSS för styling där vi jobbat med grid och flexbox för att få till en responsiv layout, samt lite JavaScript för interaktivitet. Som byggverktyg har vi använt Vite, och för kodkvalitet har vi använt ESLint och Prettier.
 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
-![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white) ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black)
 
 ## Kör projektet 💻
 
@@ -62,11 +58,4 @@ npm install
 npm run dev
 ```
 
-## Tillgänglighet 🔍
-
-### Lighthouse rapport
-
-*Screenshots läggs till här efter testning.*
-
-
-
+## Tillgänglighet 🔍 och Lighthouse rapport
