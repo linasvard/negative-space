@@ -26,13 +26,6 @@
 }
 
 .popup-bubble {
-  /* position: absolute;
-  width: 352px;
-  min-height: 151px;
-  bottom: 60px;
-  left: 40px;*/
-
-
 position: absolute;
 width: 322px;
 min-height: 151px;
@@ -120,6 +113,9 @@ text-align: center;
   margin: 0 auto;
 }
 
+/* ===============================
+   TABLET (min-width: 765px)
+================================== */
 
 @media (min-width: 765px) {
 .newsletter-wrapper {
