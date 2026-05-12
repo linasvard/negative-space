@@ -81,19 +81,19 @@
   text-transform: uppercase;
 }
 
-.story-content p {
-  margin: 0;
-  color: var(--color-dark-blue);
+.story-content p, .story-content em {
   font-size: 3.25cqw;
   line-height: 1.12;
+  color: var(--color-dark-blue);
+}
+
+.story-content p {
+  margin: 0;
 }
 
 .story-content em {
   display: block;
   margin-top: 0.7rem;
-  color: var(--color-dark-blue);
-  font-size: 3.25cqw;
-  line-height: 1.1;
   text-align: left;
   letter-spacing: 0.08em;
 }
