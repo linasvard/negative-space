@@ -34,14 +34,12 @@
 }
 
 .hero-top {
-  position: absolute;
   top: 12vh;
   left: 50%;
   transform: translateX(-50%);
   display: grid;
   justify-items: center;
   gap: 1.4rem;
-  z-index: 2;
 }
 
 .hero-top h1 {
@@ -53,17 +51,6 @@
   line-height: 0.95;
 }
 
-/* .hero-top button {
-  color: var(--color-text-dark);
-  background-color: var(--color-green);
-  border: 0;
-  border-radius: 999px;
-  padding: 0.8rem 2.2rem;
-  font: inherit;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-*/
 .story-blob {
   position: absolute;
   top: 50%;
@@ -94,19 +81,19 @@
   text-transform: uppercase;
 }
 
-.story-content p {
-  margin: 0;
-  color: var(--color-dark-blue);
+.story-content p, .story-content em {
   font-size: 3.25cqw;
   line-height: 1.12;
+  color: var(--color-dark-blue);
+}
+
+.story-content p {
+  margin: 0;
 }
 
 .story-content em {
   display: block;
   margin-top: 0.7rem;
-  color: var(--color-dark-blue);
-  font-size: 3.25cqw;
-  line-height: 1.1;
   text-align: left;
   letter-spacing: 0.08em;
 }
@@ -120,6 +107,10 @@
   transform: rotate(-75deg);
   height: auto;
 }
+
+/* ===============================
+   DESKTOP (min-width: 1024px)
+================================== */
 
 @media (min-width: 1024px) {
   .hero-top {
@@ -135,11 +126,14 @@
   }
 
   .hero-rocket {
-    left: 15%;
     top: 10%;
     width: 12%;
   }
 }
+
+/* ===============================
+   MOBILE (max-width: 600px)
+================================== */
 
 @media (max-width: 600px) {
   .hero-bg {
