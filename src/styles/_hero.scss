@@ -35,7 +35,7 @@
 
 .hero-top {
   position: absolute;
-  top: 8%;
+  top: 12vh;
   left: 50%;
   transform: translateX(-50%);
   display: grid;
@@ -53,7 +53,7 @@
   line-height: 0.95;
 }
 
-.hero-top button {
+/* .hero-top button {
   color: var(--color-text-dark);
   background-color: var(--color-green);
   border: 0;
@@ -63,8 +63,8 @@
   font-weight: 900;
   text-transform: uppercase;
 }
-
-.story-blob { 
+*/
+.story-blob {
   position: absolute;
   top: 50%;
   right: 1rem;
