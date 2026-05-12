@@ -1,6 +1,5 @@
 @use 'variables' as *;
 
-//LINA
 .pre-order-popup-wrapper {
 background-color: var(--preorder-popup);
 display: flex;
@@ -32,7 +31,6 @@ align-items: center;
 input {
 padding: 10px 20px;
 margin-bottom: 0;
-border: none;
 height: 50px;
 width: 75vw;
 max-width: 450px;
@@ -52,9 +50,7 @@ label {
 
 }
 
-
 }
-
 
 .close-preorder-btn {
     background: none;
@@ -69,8 +65,6 @@ label {
         fill: #E3E3E3;
     }
 }
-
-
 
 .submit-pre-order-btn, .close-preorder-btn-form {
   background-color: var(--color-yellow);
@@ -145,14 +139,11 @@ svg {
 
 @media (min-width: 765px) {
   
-  .pre-order-popup-wrapper {
-    max-width: 600px;
-
-  img {
+  .pre-order-popup-wrapper img {
   width: 320px;
   height: auto;
 }
-  }
+
   
   .button-wrapper {
     display: flex;
