@@ -23,6 +23,7 @@ header {
   .closeMobileMenu {
     background: none;
     border: none;
+    cursor: pointer;
   }
 
   .toggleMenuBtn svg {
@@ -62,7 +63,7 @@ header {
 }
 
 .mobileTabletDropdown.open {
-  transform: translateX(0);
+  transform: translateY(0);
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
