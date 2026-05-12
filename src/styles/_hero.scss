@@ -116,7 +116,9 @@
   left: 15%;
   top: 28%;
   width: 10%;
+  max-width: 100px;
   transform: rotate(-75deg);
+  height: auto;
 }
 
 @media (min-width: 1024px) {
@@ -130,6 +132,12 @@
 
   .story-blob {
     max-width: 980px;
+  }
+
+  .hero-rocket {
+    left: 15%;
+    top: 10%;
+    width: 12%;
   }
 }
 
@@ -151,6 +159,6 @@
   .hero-rocket {
     top: 40%;
     left: 18%;
-    width: 11%;
+    width: 8%;
   }
 }
