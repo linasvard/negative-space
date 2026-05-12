@@ -58,4 +58,12 @@ npm install
 npm run dev
 ```
 
-## Tillgänglighet 🔍 och Lighthouse rapport
+## Tillgänglighet och Lighthouse rapport  🔍 
+### Desktop
+<img width="447" height="679" alt="Lighthouse-skärmbild-desktop" src="https://github.com/user-attachments/assets/c68352e4-d3b6-438b-b34e-656ea1fc541f" />
+
+### Mobile 
+<img width="456" height="648" alt="Lighthouse-skärmbild-mobil" src="https://github.com/user-attachments/assets/e0646a39-ff2a-4316-afaa-62026c812511" />
+
+
+
