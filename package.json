@@ -20,13 +20,13 @@
   "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/j3SJFt0N)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Medieinstitutet/fed25d-grafiska-verktyg-negative-space.git"
+    "url": "git+https://github.com/Medieinstitutet/linasvard/negative-space.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Medieinstitutet/fed25d-grafiska-verktyg-negative-space/issues"
+    "url": "https://github.com/Medieinstitutet/linasvard/negative-space/issues"
   },
-  "homepage": "https://github.com/Medieinstitutet/fed25d-grafiska-verktyg-negative-space#readme"
+  "homepage": "https://github.com/Medieinstitutet/linasvard/negative-space#readme"
 }
