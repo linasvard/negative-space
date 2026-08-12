@@ -1,4 +1,4 @@
-# Negative Space 🚀
+# Om projektet 🚀
 
 Det här projektet är en del av en kurs där vi tränat på samarbetet mellan designer och utvecklare inom front end-utveckling.
 
@@ -9,14 +9,19 @@ Vi har genomfört en praktisk designöverlämning (handover) mellan två grupper
 
 Genom att delta i båda rollerna, som avsändare och mottagare, har vi fått öva på att kravställa och reflektera över vad en design behöver innehålla för att den ska vara byggbar hos en utvecklare. 
 
-## Demo
+I detta projekt har gruppen Vector Graphics kodat Negative Space design. 
 
-placeholder
+## Om spelet Negative Space 🪐
+
+Negative Space är ett spel om överlevnad. Mars resurser sinar och fyra astronautträningar skickas ut på ett livsavgörande uppdrag för att hitta en ny planet åt mänskligheten. Uppdraget kallas Expedition Positive Space. 
+
+### Hemsidan
+---
+**[Live-demo 🔗](https://linasvard.github.io/negative-space/)**
+
+![Rörlig bild av sidan](gif-slide-1.gif)
 
 
-## Spelet Negative Space 🪐
-
-Negative Space är ett spel om överlevnad. Mars resurser sinar och fyra astronautträningar skickas ut på ett livsavgörande uppdrag för att hitta en ny planet åt mänskligheten. Uppdraget kallas Expedition Positive Space. Vi är en grupp på fyra studenter som fick designen för spelets lanseringssida tilldelad av en annan grupp.
 
 ### Om designen
 
@@ -35,7 +40,7 @@ Negative Space är ett spel om överlevnad. Mars resurser sinar och fyra astrona
  [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)](https://www.figma.com/file/https://www.figma.com/design/kNFnuK1cUeGFNAHNQAOXo4/Negative-Space?node-id=1-233&p=f&t=dTBdnw6UDA4NA8Di-0) 
  [Kolla in designen i Figma](https://www.figma.com/design/kNFnuK1cUeGFNAHNQAOXo4/Negative-Space?node-id=1-233&p=f&t=dTBdnw6UDA4NA8Di-0)
 
-#### Vi har formgivit designen *(Negative Space)*
+### Vi har formgivit designen *(Negative Space)*
 
 - [Alex Minh Truong](https://github.com/alexminhtruong)
 - [Angelie Ångman](https://github.com/ngeliecode)
@@ -43,7 +48,7 @@ Negative Space är ett spel om överlevnad. Mars resurser sinar och fyra astrona
 - [Kimi Leminaho](https://github.com/Prxjec-t)
 
 
-#### Vi har kodat designen *(Vector Grapghics)*
+### Vi har kodat designen *(Vector Grapghics)*
 
 - [Oscar Holmblad](https://github.com/oscarholmblad)
 - [Lina Svärd](https://github.com/linasvard/)
@@ -54,7 +59,7 @@ Negative Space är ett spel om överlevnad. Mars resurser sinar och fyra astrona
 
 ## Tekniker 🛠️
 
-Sidan är byggd med HTML för struktur, SCSS för styling där vi jobbat med grid och flexbox för att få till en responsiv layout, samt lite JavaScript för interaktivitet. Som byggverktyg har vi använt Vite, och för kodkvalitet har vi använt ESLint och Prettier.
+Sidan är byggd med HTML för struktur, SCSS för styling där vi i Vector Graphics jobbat med grid och flexbox för att få till en responsiv layout, samt en del JavaScript för interaktivitet. Som byggverktyg har vi använt Vite, och för kodkvalitet har vi använt ESLint och Prettier.
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white) ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black)
 
