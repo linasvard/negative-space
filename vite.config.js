@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/linasvard/negative-space/",
+  base: "/negative-space/",
   build: {
     outDir: "dist",
   },
