@@ -19,7 +19,7 @@ Negative Space är ett spel om överlevnad. Mars resurser sinar och fyra astrona
 ---
 **[Live-demo 🔗](https://linasvard.github.io/negative-space/)**
 
-![Rörlig bild av sidan](gif-slide-1.gif)
+![Rörlig bild av sidan](Secreenshots/gif-slide-1.gif)
 
 
 
