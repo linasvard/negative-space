@@ -1,5 +1,14 @@
 # Om projektet 🚀
 
+
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
+![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) 
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) 
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white) 
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+
 Det här projektet är en del av en kurs där vi tränat på samarbetet mellan designer och utvecklare inom front end-utveckling.
 
 Vi har genomfört en praktisk designöverlämning (handover) mellan två grupper, för att öva på:
@@ -60,8 +69,6 @@ Negative Space är ett spel om överlevnad. Mars resurser sinar och fyra astrona
 ## Tekniker 🛠️
 
 Sidan är byggd med HTML för struktur, SCSS för styling där vi i Vector Graphics jobbat med grid och flexbox för att få till en responsiv layout, samt en del JavaScript för interaktivitet. Som byggverktyg har vi använt Vite, och för kodkvalitet har vi använt ESLint och Prettier.
-
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white) ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black)
 
 ## Kör projektet 💻
 
