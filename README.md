@@ -20,6 +20,10 @@ Genom att delta i båda rollerna, som avsändare och mottagare, har vi fått öv
 
 I detta projekt har gruppen Vector Graphics kodat Negative Space design. 
 
+
+[Kolla in designen i Figma](https://www.figma.com/design/kNFnuK1cUeGFNAHNQAOXo4/Negative-Space?node-id=1-233&p=f&t=dTBdnw6UDA4NA8Di-0) för att se designet som kodats.
+
+
 ## Om spelet Negative Space 🪐
 
 Negative Space är ett spel om överlevnad. Mars resurser sinar och fyra astronautträningar skickas ut på ett livsavgörande uppdrag för att hitta en ny planet åt mänskligheten. Uppdraget kallas Expedition Positive Space. 
@@ -44,10 +48,6 @@ Negative Space är ett spel om överlevnad. Mars resurser sinar och fyra astrona
 
 **Sammanfattningsvis** har vi strävat efter en design som är tydlig, sammanhängande och engagerande, där alla val stödjer både temat och användarupplevelsen.
 
-
-
- [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)](https://www.figma.com/file/https://www.figma.com/design/kNFnuK1cUeGFNAHNQAOXo4/Negative-Space?node-id=1-233&p=f&t=dTBdnw6UDA4NA8Di-0) 
- [Kolla in designen i Figma](https://www.figma.com/design/kNFnuK1cUeGFNAHNQAOXo4/Negative-Space?node-id=1-233&p=f&t=dTBdnw6UDA4NA8Di-0)
 
 ### Vi har formgivit designen *(Negative Space)*
 
